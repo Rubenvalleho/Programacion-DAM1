@@ -1,0 +1,54 @@
+package Ruben.Tema4.Ejercicios15Enero;
+
+public class Ejercicio10_15Ene {
+
+	public static void main(String[] args) {
+		int [][] cuadroMagico = { {1, 1, 1, 1, 1}, {1, 1, 1, 1, 1}, {1, 1, 1, 1, 1}, {1, 1, 1, 1, 1}, {1, 1, 1, 1, 1} };
+		int [] arrayFilas = new int [cuadroMagico.length];
+		int [] arrayColumnas = new int [cuadroMagico[0].length];
+		int [] arrayDiagonales = new int [2];
+		int arrayDiagonal1 = 0;
+		int arrayDiagonal2 = 0;
+		
+		for (int i = 0; i < cuadroMagico.length; i++) {
+			for (int e = 0; e < cuadroMagico[i].length; e++) {
+				System.out.print("|" + cuadroMagico[i][e] + "|");
+			}
+			System.out.println("");
+		}
+		
+		for (int i = 0; i < cuadroMagico.length; i++) {
+			for (int e = 0; e < cuadroMagico[i].length; e++) {
+				arrayFilas[i] += cuadroMagico [i][e]; 
+			}
+		}
+		for (int i = 0; i < cuadroMagico[0].length; i++) {
+			for (int e = 0; e < cuadroMagico.length; e++) {
+				arrayColumnas[i] += cuadroMagico [e][i];
+			}
+		}
+		
+		//Calculo de la diagonal de izquierda a derecha
+		for (int i = 0; i < cuadroMagico.length; i++) {
+			for (int e = 0; e < cuadroMagico[i].length -i -2; e++) {
+				arrayDiagonal1 += cuadroMagico [i][i];
+			}
+		}
+		
+		//Calculo de la diagonal de derecha a izquierda
+		for (int i = 0; i < cuadroMagico.length; i++) {
+			for (int e = 0; e < cuadroMagico[i].length - i - 1; e++) {
+				arrayDiagonal2 += cuadroMagico [i][i];
+			}
+		}
+		System.out.println(arrayDiagonal2);
+		System.out.println(arrayDiagonal1);
+				
+		/*System.out.println("");
+		for (int i = 0; i < arrayDiagonales.length; i++) {
+			System.out.println(arrayDiagonales[i]);
+		}*/
+
+	}
+
+}

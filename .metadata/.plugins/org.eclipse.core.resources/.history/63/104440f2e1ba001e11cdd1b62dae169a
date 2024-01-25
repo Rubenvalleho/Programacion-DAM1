@@ -1,0 +1,29 @@
+package Ruben.Tema4;
+
+import java.util.Random;
+import java.util.Scanner;
+
+public class AhorcadoEjercicio {
+	
+	public static void desguazar(String [] arrayPalabras) {
+		
+	}
+
+	public static void main(String[] args) {
+		/*System.out.println("Dime una palabra");
+		Scanner sc = new Scanner (System.in);
+		String palabra = sc.nextLine();*/
+		
+		Random random = new Random();
+		
+		String [] arrayPalabras = new String [4];
+		arrayPalabras[0] = "Pajaro";
+		arrayPalabras[1] = "Perro";
+		arrayPalabras[2] = "Gato";
+		arrayPalabras[3] = "Raton";
+		
+		char [] palabraDesguazada = AhorcadoEjercicio.desguazar(arrayPalabras[random.nextInt(4)]);
+
+	}
+
+}

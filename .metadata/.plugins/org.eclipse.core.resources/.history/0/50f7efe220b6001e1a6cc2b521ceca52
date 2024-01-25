@@ -1,0 +1,38 @@
+package Ruben.Tema4.Ejercicios15Enero;
+
+import java.util.Random;
+
+public class Ejercicio7Pruebas {
+
+	public static void main(String[] args) {
+
+		final int TOTAL_ELEMENTOS = 50;
+		int [] arrayAleatorio = new int [TOTAL_ELEMENTOS];
+		int [] numerosFaltantes = new int [100];
+		boolean pasar = false;
+		int contador = 1;
+		int posicion = 0;
+		Random random = new Random();
+		
+		for (int i = 0; i < arrayAleatorio.length; i++) {
+			arrayAleatorio[i] = random.nextInt(100)+1;
+			System.out.print(arrayAleatorio[i] + " | ");
+		}
+		System.out.println(" ");
+		
+		for (int i = 0; i < numerosFaltantes.length; i++) {
+			for (int j = 0; j < arrayAleatorio.length; j++) {
+				if (contador==arrayAleatorio[j]) {
+					pasar = true;
+				}
+			}
+			if (pasar==false) {
+				System.out.println(contador);
+				numerosFaltantes[posicion] = contador;
+				posicion++;
+			}
+		}
+
+	}
+
+}

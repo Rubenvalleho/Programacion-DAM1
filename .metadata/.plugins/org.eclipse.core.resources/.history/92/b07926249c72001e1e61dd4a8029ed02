@@ -1,0 +1,34 @@
+package Ruben.Tema2;
+
+import java.util.Scanner;
+
+public class Tema2Ejercicio3 {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Añade numeros hasta meter 5 ceros");
+		int numero = 0;
+		int cambio = 0;
+		int mayor = 0;
+		int contador = 0;
+		Scanner sc = new Scanner (System.in);
+		
+		do {
+			System.out.print("Numero: ");
+			
+			if (numero==0) {
+				contador=contador+1;
+				cambio=0; // reinicia el numero de repeticiones.
+			}
+			else if (mayor==0) {
+
+				cambio=cambio+1;
+			}
+		}
+		while (numero!=5);
+		
+		sc.close();
+		
+	}
+
+}

@@ -1,0 +1,49 @@
+package Ruben.Tema4.Ejercicios15Enero;
+
+public class Ejercicio9_15Dic {
+
+	public static void main(String[] args) {
+		
+		int [] [] arrayCompleto = {
+				{4, 6, 10},
+				{9, 10, 23},
+				{15, 32, 2}
+		};
+		
+		for (int i = 0; i < arrayCompleto.length; i++) {
+			for (int e = 0; e < arrayCompleto[i].length; e++) {
+				System.out.print(arrayCompleto[i] [e] + "\t");
+			}
+			System.out.println("");
+		}
+		
+		int arrayHorizontal [] = new int [3];
+		int arrayVertical [] = new int [3];
+		
+		/*int sumaHorizontal = 0;
+		int sumaVertical = 0;*/
+		
+		for (int i = 0; i < arrayCompleto.length; i++) {
+			for (int e = 0; e < arrayCompleto[i].length; e++) {
+				arrayHorizontal[i] += arrayCompleto[i][e]; 
+			}
+		}
+		
+		for (int i = 0; i < arrayCompleto[0].length; i++) {
+			for (int e = 0; e < arrayCompleto.length; e++) {
+				arrayVertical[i] += arrayCompleto[e][i];
+			}
+		}
+		
+		System.out.println(" ");
+		for (int i = 0; i < arrayHorizontal.length; i++) {
+			System.out.println(arrayHorizontal[i] + "\t");
+		}
+		
+		System.out.println(" ");
+		for (int i = 0; i < arrayVertical.length; i++) {
+			System.out.print(arrayVertical[i] + "\t");
+		}
+	}
+
+}

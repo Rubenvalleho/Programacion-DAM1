@@ -1,0 +1,19 @@
+package Ruben.Tema4.Ejercicios15Enero;
+
+import java.util.Random;
+
+public class Ejercicio7Correccion {
+
+	public static void main(String[] args) {
+		Random random = new Random();
+		final int TOTAL_ELEMENTOS = 50;
+		int [] numeros = new int [TOTAL_ELEMENTOS];
+		
+		for (int i = 0; i < numeros.length; i++) {
+			numeros[i] = random.nextInt(100)+1;
+			System.out.print(numeros[i] + " | ");
+		}
+
+	}
+
+}
