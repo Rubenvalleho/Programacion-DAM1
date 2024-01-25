@@ -39,18 +39,15 @@ public class AhorcadoEjercicio {
 				}
 				System.out.print(guiones[e] + " ");
 			}
-			for (int j = 0; j < guiones.length; j++) {
-				if (guiones[j] == desguazar[j]) {
-					acierto = true;
-				}
-				else {
-					acierto = false;
-				}
-			}
-			if (acierto) {
-				break;
-			}
 			System.out.println("\n");
+		}
+		for (int i = 0; i < guiones.length; i++) {
+			if (guiones[i] == desguazar[i]) {
+				acierto = true;
+			}
+			else {
+				acierto = false;
+			}
 		}
 		if (acierto) {
 			System.out.println("HAS GANADO");

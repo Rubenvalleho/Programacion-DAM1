@@ -42,13 +42,11 @@ public class AhorcadoEjercicio {
 			for (int j = 0; j < guiones.length; j++) {
 				if (guiones[j] == desguazar[j]) {
 					acierto = true;
+					break;
 				}
 				else {
 					acierto = false;
 				}
-			}
-			if (acierto) {
-				break;
 			}
 			System.out.println("\n");
 		}

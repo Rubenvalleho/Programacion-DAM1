@@ -16,7 +16,6 @@ public class AhorcadoEjercicio {
 	public static void jugar (char [] desguazar) {
 		char [] guiones = new char [desguazar.length];
 		char letra;
-		boolean acierto = false;
 		Scanner sc = new Scanner (System.in);
 		
 		System.out.println("El ahorcado (Adivina la palabra en 10 intentos o menos)");
@@ -39,26 +38,14 @@ public class AhorcadoEjercicio {
 				}
 				System.out.print(guiones[e] + " ");
 			}
-			for (int j = 0; j < guiones.length; j++) {
-				if (guiones[j] == desguazar[j]) {
-					acierto = true;
-				}
-				else {
-					acierto = false;
-				}
-			}
-			if (acierto) {
-				break;
-			}
 			System.out.println("\n");
 		}
-		if (acierto) {
+		if (guiones == desguazar) {
 			System.out.println("HAS GANADO");
 		}
 		else {
-			System.out.println("HAS PERDIDO");
+			System.out.println("\nHAS PERDIDO");
 		}
-		
 	}
 
 	public static void main(String[] args) {

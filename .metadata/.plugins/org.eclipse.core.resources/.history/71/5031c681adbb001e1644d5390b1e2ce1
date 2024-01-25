@@ -47,9 +47,6 @@ public class AhorcadoEjercicio {
 					acierto = false;
 				}
 			}
-			if (acierto) {
-				break;
-			}
 			System.out.println("\n");
 		}
 		if (acierto) {
