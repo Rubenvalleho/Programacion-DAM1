@@ -34,8 +34,8 @@ public class AhorcadoEjercicio {
 			for (int e = 0; e < desguazar.length; e++) {
 				if (letra == desguazar[e]) {
 					guiones[e] = letra;
+					System.out.print(guiones[e]);
 				}
-				System.out.print(guiones[e] + " ");
 			}
 		}
 	}

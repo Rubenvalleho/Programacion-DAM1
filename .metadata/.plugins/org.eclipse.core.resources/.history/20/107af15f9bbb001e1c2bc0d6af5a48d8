@@ -15,6 +15,7 @@ public class AhorcadoEjercicio {
 	
 	public static void jugar (char [] desguazar) {
 		char [] guiones = new char [desguazar.length];
+		String letras;
 		char letra;
 		Scanner sc = new Scanner (System.in);
 		
@@ -30,12 +31,12 @@ public class AhorcadoEjercicio {
 		for (int i = 1; i < 10; i++) {
 			System.out.println("Intento numero " + i);
 			System.out.println("Dime una letra: ");
-			letra = sc.next().charAt(0);
+			letras = sc.next();
+			letra = letras.charAt();
 			for (int e = 0; e < desguazar.length; e++) {
 				if (letra == desguazar[e]) {
 					guiones[e] = letra;
 				}
-				System.out.print(guiones[e] + " ");
 			}
 		}
 	}
