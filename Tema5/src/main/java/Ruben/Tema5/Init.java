@@ -6,10 +6,13 @@ public class Init {
 		//Generar una clase lista, y usar todos los metodos creados anteriormente
 		
 		Lista lista = new Lista();
-		lista.isEmpty();
+		System.out.println("¿Está vacía? " + lista.isEmpty());
 		lista.add("Info");
+		lista.add("Hola");
+		lista.add("Adios");
 		lista.print();
-		lista.isEmpty();
+		System.out.println("El tamaño de la lista es: " + lista.size());
+		System.out.println("¿Está vacía? "+lista.isEmpty());
 	}
 
 }
