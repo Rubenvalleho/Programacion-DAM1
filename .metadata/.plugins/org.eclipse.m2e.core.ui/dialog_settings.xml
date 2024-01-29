@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\Users\7645\eclipse-workspace_dam\Tema4\src\main\java\Ruben\Tema4\Ejercicios15Enero\Ejercicio10_15Ene.java"/>
 			<item value="D:\Users\7645\eclipse-workspace_dam"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -26,6 +27,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="Ruben.Tema5"/>
 			<item value="Ruben.Tema4"/>
 			<item value="org.Redondear"/>
 		</list>
@@ -33,6 +35,7 @@
 			<item value="Ruben"/>
 		</list>
 		<list key="artifactId">
+			<item value="Tema5"/>
 			<item value="Tema4"/>
 			<item value="Redondear"/>
 		</list>
