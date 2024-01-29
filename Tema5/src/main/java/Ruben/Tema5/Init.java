@@ -6,6 +6,10 @@ public class Init {
 		//Generar una clase lista, y usar todos los metodos creados anteriormente
 		
 		Lista lista = new Lista();
+		lista.isEmpty();
+		lista.add("Info");
+		lista.print();
+		lista.isEmpty();
 	}
 
 }
