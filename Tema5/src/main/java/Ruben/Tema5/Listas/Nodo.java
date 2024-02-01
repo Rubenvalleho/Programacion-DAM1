@@ -1,4 +1,4 @@
-package Ruben.Tema5;
+package Ruben.Tema5.Listas;
 
 public class Nodo {
 	
