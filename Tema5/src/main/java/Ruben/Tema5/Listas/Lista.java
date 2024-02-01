@@ -4,9 +4,9 @@ public class Lista {
 	
 	private Nodo primero;
 	private int tam = 0;
-
+	
+	//Metodo para añadir objetos a la lista
 	public void add(String info) {
-		
 		Nodo nuevo = new Nodo(info);
 		
 		if (primero == null) {
@@ -22,6 +22,36 @@ public class Lista {
 			aux.setSig(nuevo);
 		}
 		tam++;
+	}
+	
+	//Metodo para eliminar objetos de la lista
+	public void remove (int index) {
+		Nodo borrar = null;
+		
+		if ((!isEmpty())&&(index<=tam)&&(index>=0)) {
+			if (index==0) {
+				borrar = primero;
+				primero = primero.getSig();
+			}
+			else {
+				borrar = primero.getSig();
+				Nodo anteriorNodo = primero;
+				
+				for (int i = 1; i < index; i++) {
+					borrar = borrar.getSig();
+					anteriorNodo = anteriorNodo.getSig();
+				}
+				if (index == tam-1) {
+					anteriorNodo.setSig(null);
+					anteriorNodo.setInfo(borrar.getInfo());
+				}
+				else {
+					anteriorNodo.setSig(borrar.getSig());
+					borrar.setSig(null);
+					tam--;
+				}
+			}
+		}
 	}
 	
 	public void print() {
