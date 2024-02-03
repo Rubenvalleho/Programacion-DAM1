@@ -2,17 +2,17 @@ package Ruben.Tema5.ListaSimple2;
 
 public class Nodo {
 	
-	private Persona info;
+	private Persona persona;
 	private Nodo sig;
 	
-	public Nodo(Persona info) {
-		this.info = info;
+	public Nodo(Persona persona) {
+		this.persona = persona;
 	}
-	public Persona getInfo() {
-		return info;
+	public Persona getPersona() {
+		return persona;
 	}
-	public void setInfo(Persona info) {
-		this.info = info;
+	public void setPersona(Persona persona) {
+		this.persona = persona;
 	}
 	public Nodo getSig() {
 		return sig;
@@ -22,7 +22,7 @@ public class Nodo {
 	}
 	@Override
 	public String toString() {
-		return "Nodo [info=" + info + ", sig=" + sig + "]";
+		return "Nodo [Persona=" + persona + ", sig=" + sig + "]";
 	}
 
 

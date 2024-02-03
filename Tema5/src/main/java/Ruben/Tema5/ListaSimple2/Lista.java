@@ -24,13 +24,13 @@ public interface Lista {
 	 * Inserta al inicio de la lista
 	 * @param info información para almacenar
 	 */
-	public void insertAtBegin(Persona info);
+	public void insertAtBegin(Persona persona);
 	
 	/**
 	 * Inserta al final de la lista
 	 * @param info información para almacenar
 	 */
-	public void insertAtEnd(Persona info);
+	public void insertAtEnd(Persona persona);
 	
 
 	/**
@@ -38,14 +38,14 @@ public interface Lista {
 	 * @param info información para almacenar
 	 * @param index posición de la lista donde se va a insertar
 	 */
-	public void insertAtPosition(Persona info, int index);
+	public void insertAtPosition(Persona persona, int index);
 	
 	/**
 	 * Comprueba que un elemento exista dentro de la lista
 	 * @param info información a buscar
 	 * @return true si el elemento existe en la lista
 	 */
-	public boolean containsInfo(Persona info);
+	public boolean containsInfo(Persona persona);
 	
 	
 	/**
@@ -60,7 +60,7 @@ public interface Lista {
 	 * @param info información del nodo a borrar
 	 * @return true si se ha eliminado correctamente
 	 */
-	public boolean removeByInfo(Persona info);
+	public boolean removeByInfo(Persona persona);
 	
 	/**
 	 * Elimina el nodo en la posición indicada
