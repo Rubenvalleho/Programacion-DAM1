@@ -3,7 +3,7 @@ package Ruben.Tema5.ListaSimple2;
 public class ListaSimple implements Lista {
 
 	private Nodo primero;
-	private int tama;
+	private int tamaño;
 	//metodo main
 	
 	//Metodos a redefinir
@@ -23,7 +23,8 @@ public class ListaSimple implements Lista {
 		Nodo aux=primero;
 		if (aux!=null) {
 			return 1;
-		}else {
+		}
+		else {
 			return Integer.MIN_VALUE;
 		}
 		
