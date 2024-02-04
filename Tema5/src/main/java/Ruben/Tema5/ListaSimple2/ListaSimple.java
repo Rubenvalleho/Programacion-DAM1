@@ -33,38 +33,52 @@ public class ListaSimple implements Lista {
 
 	@Override
 	public int getLast() {
-		// TODO Auto-generated method stub
-		return 0;
-	}
-
-	@Override
-	public void insertAtBegin(Persona info) {
-		/*Nodo aux = primero;
-		Nodo anterior;
+		
+		Nodo aux = primero;
+		int contador = 1;
+		
 		if (primero!=null) {
 			while (aux==null) {
-				aux=primero.getSig();
-				anterior=primero;
+				aux = aux.getSig();
+				contador++;
 			}
-			
-		}*/
+			return contador;
+		}
+		else {
+			return Integer.MIN_VALUE;
+		}
+	}
+
+	@Override
+	public void insertAtBegin(Persona persona) {
+		Nodo nuevo = new Nodo(persona);
+		if (primero==null) {
+			primero = nuevo;
+		}
 		
 	}
 
 	@Override
-	public void insertAtEnd(Persona info) {
+	public void insertAtEnd(Persona persona) {
+		Nodo nuevo = new Nodo (persona);
+		
+		while (primero==null) {
+			primero = primero.getSig();
+			if (primero.getSig()==null) {
+				primero.setSig(nuevo);
+			}
+		}
+		
+	}
+
+	@Override
+	public void insertAtPosition(Persona persona, int index) {
 		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
-	public void insertAtPosition(Persona info, int index) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public boolean containsInfo(Persona info) {
+	public boolean containsInfo(Persona persona) {
 		// TODO Auto-generated method stub
 		return false;
 	}
@@ -76,7 +90,7 @@ public class ListaSimple implements Lista {
 	}
 
 	@Override
-	public boolean removeByInfo(Persona info) {
+	public boolean removeByInfo(Persona persona) {
 		// TODO Auto-generated method stub
 		return false;
 	}
@@ -110,8 +124,15 @@ public class ListaSimple implements Lista {
 	
 	public static void main(String[] args) {
 		ListaSimple lista = new ListaSimple();
-		System.out.println(lista.getFirst());
+		Persona persona1 = new Persona ("Ruben", 24);
+		Persona persona2 = new Persona("Antonio", 25);
 		
+		lista.insertAtBegin(persona1);
+		lista.insertAtEnd(persona2);
+		
+		System.out.println(lista.isEmpty());
+		System.out.println(lista.getFirst());
+		System.out.println(lista.getLast());
 		//lista.insertAtBegin(new Persona("David",22));
 		
 	}
