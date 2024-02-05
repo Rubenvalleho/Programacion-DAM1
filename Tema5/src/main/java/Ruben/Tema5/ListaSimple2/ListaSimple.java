@@ -19,57 +19,64 @@ public class ListaSimple implements Lista {
 	}
 
 	@Override
-	public int getFirst() {
+	public Persona getFirst() {
 		Nodo aux=primero;
 		if (aux!=null) {
-			return 1;
+			return aux.getPersona();
 		}
 		else {
-			return Integer.MIN_VALUE;
+			return null;
 		}
 		
 		
 	}
 
 	@Override
-	public int getLast() {
-		
+	public Persona getLast() {
+		Persona persona = null;
 		Nodo aux = primero;
-		int contador = 1;
 		
-		if (primero!=null) {
-			while (aux==null) {
+		if (aux!=null) {
+			while (aux.getSig()!=null) {
 				aux = aux.getSig();
-				contador++;
 			}
-			return contador;
+			return aux.getPersona();
 		}
 		else {
-			return Integer.MIN_VALUE;
+			return persona;
 		}
 	}
 
 	@Override
 	public void insertAtBegin(Persona persona) {
 		Nodo nuevo = new Nodo(persona);
-		if (primero==null) {
-			primero = nuevo;
+		if (!isEmpty()) {
+			nuevo.setSig(primero);;
 		}
-		
+		primero = nuevo;
+		tamaño++;
 	}
 
 	@Override
 	public void insertAtEnd(Persona persona) {
 		Nodo nuevo = new Nodo (persona);
-		Nodo aux = primero;
 		
-		while (aux==null) {
-			aux = aux.getSig();
-			if (aux.getSig()==null) {
-				aux.setSig(nuevo);
+		if (primero==null) {
+			primero = nuevo;
+		}
+		else if (primero.getSig()==null) {
+			primero.setSig(nuevo);
+		}
+		else {
+			Nodo aux = primero;
+			while (aux!=null) {
+				aux = aux.getSig();
+				if (aux.getSig()==null) {
+					aux.setSig(nuevo);
+				}
 			}
 		}
-		
+		tamaño++;
 	}
 
 	@Override
@@ -80,7 +87,7 @@ public class ListaSimple implements Lista {
 		for (int i = 0; i < index; i++) {
 			aux = aux.getSig();
 			if (i == index) {
-				aux = aux.setSig(nuevo);
+				aux.setSig(nuevo);
 			}
 		}
 		
@@ -137,7 +144,8 @@ public class ListaSimple implements Lista {
 		Persona persona2 = new Persona("Antonio", 25);
 		
 		lista.insertAtBegin(persona1);
-		lista.insertAtPosition(persona2, 2);
+		lista.insertAtEnd(persona2);
+		//lista.insertAtPosition(persona2, 2);
 		
 		System.out.println(lista.isEmpty());
 		System.out.println(lista.getFirst());

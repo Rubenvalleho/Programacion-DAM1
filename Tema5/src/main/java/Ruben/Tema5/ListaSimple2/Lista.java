@@ -12,13 +12,13 @@ public interface Lista {
 	 * Devuelve la información del primer elemento
 	 * @return la info del primer elemento o Integer.MIN_VALUE si no lo encuentra.
 	 */
-	public int getFirst();
+	public Persona getFirst();
 	
 	/**
 	 * Obtiene el último elemento de la lista
 	 * @return la información del último elemento de la lista o Integer.MIN_VALUE si no lo encuentra.
 	 */
-	public int getLast();
+	public Persona getLast();
 	
 	/**
 	 * Inserta al inicio de la lista
