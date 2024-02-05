@@ -61,11 +61,12 @@ public class ListaSimple implements Lista {
 	@Override
 	public void insertAtEnd(Persona persona) {
 		Nodo nuevo = new Nodo (persona);
+		Nodo aux = primero;
 		
-		while (primero==null) {
-			primero = primero.getSig();
-			if (primero.getSig()==null) {
-				primero.setSig(nuevo);
+		while (aux==null) {
+			aux = aux.getSig();
+			if (aux.getSig()==null) {
+				aux.setSig(nuevo);
 			}
 		}
 		
@@ -73,7 +74,15 @@ public class ListaSimple implements Lista {
 
 	@Override
 	public void insertAtPosition(Persona persona, int index) {
-		// TODO Auto-generated method stub
+		Nodo nuevo = new Nodo (persona);
+		Nodo aux = primero;
+		
+		for (int i = 0; i < index; i++) {
+			aux = aux.getSig();
+			if (i == index) {
+				aux = aux.setSig(nuevo);
+			}
+		}
 		
 	}
 
@@ -128,7 +137,7 @@ public class ListaSimple implements Lista {
 		Persona persona2 = new Persona("Antonio", 25);
 		
 		lista.insertAtBegin(persona1);
-		lista.insertAtEnd(persona2);
+		lista.insertAtPosition(persona2, 2);
 		
 		System.out.println(lista.isEmpty());
 		System.out.println(lista.getFirst());
