@@ -84,18 +84,33 @@ public class ListaSimple implements Lista {
 		Nodo nuevo = new Nodo (persona);
 		Nodo aux = primero;
 		
-		for (int i = 0; i < index; i++) {
-			aux = aux.getSig();
-			if (i == index) {
-				aux.setSig(nuevo);
+		if (index==1) {
+			primero = nuevo;
+		}
+		else {
+			for (int i = 1; i < index; i++) {
+				aux = aux.getSig();
+				if (i == index) {
+					aux.setSig(nuevo);
+				}
 			}
 		}
-		
 	}
 
 	@Override
 	public boolean containsInfo(Persona persona) {
-		// TODO Auto-generated method stub
+		Nodo comprueba = new Nodo (persona);
+		Nodo aux = primero;
+		
+		do {
+			aux = aux.getSig();
+		}
+		 while (aux.equals(persona));
+		 
+		if (aux.equals(persona)) {
+				return true;
+		}
+			
 		return false;
 	}
 
@@ -119,7 +134,12 @@ public class ListaSimple implements Lista {
 
 	@Override
 	public void print() {
-		// TODO Auto-generated method stub
+		Nodo aux = primero;
+		
+		while (aux != null) {
+			System.out.println(aux);
+			aux = aux.getSig();
+		}
 		
 	}
 
@@ -131,8 +151,15 @@ public class ListaSimple implements Lista {
 
 	@Override
 	public int size() {
-		// TODO Auto-generated method stub
-		return 0;
+		int contador = 0;
+		Nodo aux = primero;
+		
+		while (aux != null) {
+			aux = aux.getSig();
+			contador++;
+		}
+		
+		return contador;
 	}
 	
 	
@@ -142,14 +169,19 @@ public class ListaSimple implements Lista {
 		ListaSimple lista = new ListaSimple();
 		Persona persona1 = new Persona ("Ruben", 24);
 		Persona persona2 = new Persona("Antonio", 25);
+		Persona persona3 = new Persona ("Toto", 33);
 		
 		lista.insertAtBegin(persona1);
 		lista.insertAtEnd(persona2);
-		//lista.insertAtPosition(persona2, 2);
+		//lista.insertAtEnd(persona3);
+		//lista.insertAtPosition(persona3, 3);
 		
 		System.out.println(lista.isEmpty());
 		System.out.println(lista.getFirst());
 		System.out.println(lista.getLast());
+		System.out.println(lista.containsInfo(persona2));
+		System.out.println(lista.size());
+		lista.print();
 		//lista.insertAtBegin(new Persona("David",22));
 		
 	}
