@@ -142,7 +142,8 @@ public class ListaSimple implements Lista {
 		while (aux!=null) {
 			
 			if (aux.getPersona().equals(persona)) {
-				anterior.setSig(null);
+				anterior.setSig(aux.getSig());
+				aux = null;
 				return true;
 			}
 			aux = aux.getSig();
@@ -162,16 +163,25 @@ public class ListaSimple implements Lista {
 	public void print() {
 		Nodo aux = primero;
 		
-		while (aux != null) {
+		if (primero==null) {
+			System.out.println("La lista está vacía");
+		}
+		
+		else {
+			while (aux != null) {
 			System.out.println(aux.getPersona());
 			aux = aux.getSig();
+			}
 		}
 		
 	}
 
 	@Override
 	public boolean clearList() {
-		// TODO Auto-generated method stub
+		if (primero!=null) {
+			primero = null;
+			return true;
+		}
 		return false;
 	}
 
@@ -210,7 +220,10 @@ public class ListaSimple implements Lista {
 		lista.print();
 		System.out.println(lista.getElementAt(2));
 		
-		System.out.println(lista.removeByInfo(persona2));
+		System.out.println(lista.removeByInfo(persona1));
+		lista.print();
+		
+		System.out.println(lista.clearList());
 		lista.print();
 		//lista.insertAtBegin(new Persona("David",22));
 		
