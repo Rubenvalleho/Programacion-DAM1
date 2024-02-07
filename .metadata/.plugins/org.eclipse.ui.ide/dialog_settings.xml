@@ -11,6 +11,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="D:\Users\7645\eclipse-workspace_dam"/>
 			<item value="C:\Users\Rubén\Documents\GitHub\Programacion-DAM1"/>
 			<item value="D:\Users\7645\eclipse-workspace_dam\Ruben\Tema1"/>
 			<item value="D:\Users\7645\eclipse-workspace_dam\Ruben"/>
