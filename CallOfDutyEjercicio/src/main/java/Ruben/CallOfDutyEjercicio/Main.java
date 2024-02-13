@@ -3,7 +3,9 @@ package Ruben.CallOfDutyEjercicio;
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		InventarioController inventarioController = new InventarioController();
+		
+		inventarioController.mostrarInventario();
 
 	}
 

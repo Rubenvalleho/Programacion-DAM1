@@ -10211,3 +10211,193 @@ org.eclipse.core.runtime.CoreException: Launch configuration ValoresPorPantalla 
 2024-02-12 12:42:05,334 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\PracticaExamenUT4\src\main\resources
 2024-02-12 12:42:05,342 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2024-02-12 12:42:05,342 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\PracticaExamenUT4\src\test\resources
+2024-02-12 18:59:24,106 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-02-13 10:34:19,886 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-02-13 12:57:42,332 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 12:57:42,334 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\CallOfDutyEjercicio\src\main\resources
+2024-02-13 12:57:42,339 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 12:57:42,339 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\CallOfDutyEjercicio\src\test\resources
+2024-02-13 12:57:43,128 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 12:57:43,128 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\PracticaExamenUT4\src\main\resources
+2024-02-13 12:57:43,130 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 12:57:43,131 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\PracticaExamenUT4\src\test\resources
+2024-02-13 12:57:43,434 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 12:57:43,434 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\Tema1\src\main\resources
+2024-02-13 12:57:43,436 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 12:57:43,436 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\Tema1\src\test\resources
+2024-02-13 12:57:43,721 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 12:57:43,721 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\Tema2\src\main\resources
+2024-02-13 12:57:43,724 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 12:57:43,724 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\Tema2\src\test\resources
+2024-02-13 12:57:44,000 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 12:57:44,000 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\Tema3\src\main\resources
+2024-02-13 12:57:44,003 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 12:57:44,003 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\Tema3\src\test\resources
+2024-02-13 12:57:44,198 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 12:57:44,199 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\Tema5\src\main\resources
+2024-02-13 12:57:44,201 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 12:57:44,201 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\Tema5\src\test\resources
+2024-02-13 12:58:05,535 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 12:58:05,536 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\PracticaExamenUT4\src\main\resources
+2024-02-13 12:58:05,538 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 12:58:05,538 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\PracticaExamenUT4\src\test\resources
+2024-02-13 13:01:40,443 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 13:01:40,444 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\PracticaExamenUT4\src\main\resources
+2024-02-13 13:01:40,445 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 13:01:40,445 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\PracticaExamenUT4\src\test\resources
+2024-02-13 13:02:09,134 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 13:02:09,134 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\PracticaExamenUT4\src\main\resources
+2024-02-13 13:02:09,136 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 13:02:09,136 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\PracticaExamenUT4\src\test\resources
+2024-02-13 13:04:38,563 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 13:04:38,563 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\PracticaExamenUT4\src\main\resources
+2024-02-13 13:04:38,565 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 13:04:38,565 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\PracticaExamenUT4\src\test\resources
+2024-02-13 13:06:02,916 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 13:06:02,917 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\PracticaExamenUT4\src\main\resources
+2024-02-13 13:06:02,918 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 13:06:02,919 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\PracticaExamenUT4\src\test\resources
+2024-02-13 13:08:25,666 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 13:08:25,666 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\PracticaExamenUT4\src\main\resources
+2024-02-13 13:08:25,668 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 13:08:25,668 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\PracticaExamenUT4\src\test\resources
+2024-02-13 13:09:04,322 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 13:09:04,322 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\PracticaExamenUT4\src\main\resources
+2024-02-13 13:09:04,324 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 13:09:04,324 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\PracticaExamenUT4\src\test\resources
+2024-02-13 13:09:12,098 [Worker-54: Launching Ejercicio1UT4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 13:09:12,098 [Worker-54: Launching Ejercicio1UT4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\PracticaExamenUT4\src\main\resources
+2024-02-13 13:09:12,100 [Worker-54: Launching Ejercicio1UT4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 13:09:12,100 [Worker-54: Launching Ejercicio1UT4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\PracticaExamenUT4\src\test\resources
+2024-02-13 13:12:11,236 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 13:12:11,236 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\PracticaExamenUT4\src\main\resources
+2024-02-13 13:12:11,238 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 13:12:11,238 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\PracticaExamenUT4\src\test\resources
+2024-02-13 13:18:12,330 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 13:18:12,330 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\PracticaExamenUT4\src\main\resources
+2024-02-13 13:18:12,332 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 13:18:12,333 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\PracticaExamenUT4\src\test\resources
+2024-02-13 13:18:37,003 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 13:18:37,003 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\PracticaExamenUT4\src\main\resources
+2024-02-13 13:18:37,005 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 13:18:37,005 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\PracticaExamenUT4\src\test\resources
+2024-02-13 13:19:25,492 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 13:19:25,493 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\PracticaExamenUT4\src\main\resources
+2024-02-13 13:19:25,494 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 13:19:25,494 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\PracticaExamenUT4\src\test\resources
+2024-02-13 13:19:48,257 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 13:19:48,257 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\PracticaExamenUT4\src\main\resources
+2024-02-13 13:19:48,259 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 13:19:48,259 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\PracticaExamenUT4\src\test\resources
+2024-02-13 13:20:29,162 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 13:20:29,162 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\PracticaExamenUT4\src\main\resources
+2024-02-13 13:20:29,164 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 13:20:29,164 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\PracticaExamenUT4\src\test\resources
+2024-02-13 13:20:58,075 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 13:20:58,075 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\PracticaExamenUT4\src\main\resources
+2024-02-13 13:20:58,077 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 13:20:58,077 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\PracticaExamenUT4\src\test\resources
+2024-02-13 13:22:27,671 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 13:22:27,671 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\PracticaExamenUT4\src\main\resources
+2024-02-13 13:22:27,673 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 13:22:27,674 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\PracticaExamenUT4\src\test\resources
+2024-02-13 13:22:37,414 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 13:22:37,414 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\PracticaExamenUT4\src\main\resources
+2024-02-13 13:22:37,416 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 13:22:37,416 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\PracticaExamenUT4\src\test\resources
+2024-02-13 14:10:50,718 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 14:10:50,719 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\PracticaExamenUT4\src\main\resources
+2024-02-13 14:10:50,721 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 14:10:50,721 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\PracticaExamenUT4\src\test\resources
+2024-02-13 14:11:37,226 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 14:11:37,226 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\PracticaExamenUT4\src\main\resources
+2024-02-13 14:11:37,228 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 14:11:37,228 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\PracticaExamenUT4\src\test\resources
+2024-02-13 14:15:13,990 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 14:15:13,990 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\PracticaExamenUT4\src\main\resources
+2024-02-13 14:15:13,992 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 14:15:13,992 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\PracticaExamenUT4\src\test\resources
+2024-02-13 14:16:05,531 [Worker-76: Launching Ejercicio2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 14:16:05,532 [Worker-76: Launching Ejercicio2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\PracticaExamenUT4\src\main\resources
+2024-02-13 14:16:05,535 [Worker-76: Launching Ejercicio2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 14:16:05,535 [Worker-76: Launching Ejercicio2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\PracticaExamenUT4\src\test\resources
+2024-02-13 14:16:38,848 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 14:16:38,848 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\PracticaExamenUT4\src\main\resources
+2024-02-13 14:16:38,850 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 14:16:38,850 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\PracticaExamenUT4\src\test\resources
+2024-02-13 14:18:24,469 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 14:18:24,469 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\PracticaExamenUT4\src\main\resources
+2024-02-13 14:18:24,471 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 14:18:24,471 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\PracticaExamenUT4\src\test\resources
+2024-02-13 14:24:04,295 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 14:24:04,295 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\PracticaExamenUT4\src\main\resources
+2024-02-13 14:24:04,297 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 14:24:04,297 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\PracticaExamenUT4\src\test\resources
+2024-02-13 14:24:12,255 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 14:24:12,255 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\PracticaExamenUT4\src\main\resources
+2024-02-13 14:24:12,257 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 14:24:12,257 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\PracticaExamenUT4\src\test\resources
+2024-02-13 14:24:51,591 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 14:24:51,592 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\PracticaExamenUT4\src\main\resources
+2024-02-13 14:24:51,593 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 14:24:51,594 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\PracticaExamenUT4\src\test\resources
+2024-02-13 14:25:42,640 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 14:25:42,641 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\PracticaExamenUT4\src\main\resources
+2024-02-13 14:25:42,642 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 14:25:42,642 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\PracticaExamenUT4\src\test\resources
+2024-02-13 14:26:07,750 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 14:26:07,751 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\PracticaExamenUT4\src\main\resources
+2024-02-13 14:26:07,752 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 14:26:07,753 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\PracticaExamenUT4\src\test\resources
+2024-02-13 14:27:12,964 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 14:27:12,965 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\PracticaExamenUT4\src\main\resources
+2024-02-13 14:27:12,966 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 14:27:12,967 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\PracticaExamenUT4\src\test\resources
+2024-02-13 14:28:46,035 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 14:28:46,035 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\PracticaExamenUT4\src\main\resources
+2024-02-13 14:28:46,036 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 14:28:46,036 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\PracticaExamenUT4\src\test\resources
+2024-02-13 14:30:14,417 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 14:30:14,417 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\PracticaExamenUT4\src\main\resources
+2024-02-13 14:30:14,419 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 14:30:14,420 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\PracticaExamenUT4\src\test\resources
+2024-02-13 14:32:03,081 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 14:32:03,081 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\PracticaExamenUT4\src\main\resources
+2024-02-13 14:32:03,084 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 14:32:03,084 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\PracticaExamenUT4\src\test\resources
+2024-02-13 17:19:44,080 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 17:19:44,080 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\CallOfDutyEjercicio\src\main\resources
+2024-02-13 17:19:44,082 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 17:19:44,082 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\CallOfDutyEjercicio\src\test\resources
+2024-02-13 19:09:05,910 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 19:09:05,910 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\CallOfDutyEjercicio\src\main\resources
+2024-02-13 19:09:05,913 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 19:09:05,913 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\CallOfDutyEjercicio\src\test\resources
+2024-02-13 19:24:37,504 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 19:24:37,504 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\CallOfDutyEjercicio\src\main\resources
+2024-02-13 19:24:37,506 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 19:24:37,506 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\CallOfDutyEjercicio\src\test\resources
+2024-02-13 19:24:56,565 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 19:24:56,565 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\CallOfDutyEjercicio\src\main\resources
+2024-02-13 19:24:56,566 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 19:24:56,566 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\CallOfDutyEjercicio\src\test\resources
+2024-02-13 19:34:15,118 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 19:34:15,119 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\CallOfDutyEjercicio\src\main\resources
+2024-02-13 19:34:15,120 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 19:34:15,120 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\CallOfDutyEjercicio\src\test\resources
+2024-02-13 19:36:03,582 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 19:36:03,582 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\CallOfDutyEjercicio\src\main\resources
+2024-02-13 19:36:03,584 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 19:36:03,584 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\CallOfDutyEjercicio\src\test\resources
+2024-02-13 19:36:52,899 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 19:36:52,899 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\CallOfDutyEjercicio\src\main\resources
+2024-02-13 19:36:52,900 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 19:36:52,901 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\CallOfDutyEjercicio\src\test\resources
+2024-02-13 19:37:59,434 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 19:37:59,435 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\CallOfDutyEjercicio\src\main\resources
+2024-02-13 19:37:59,436 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 19:37:59,436 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\CallOfDutyEjercicio\src\test\resources
+2024-02-13 19:40:33,594 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 19:40:33,595 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\CallOfDutyEjercicio\src\main\resources
+2024-02-13 19:40:33,596 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-13 19:40:33,596 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\CallOfDutyEjercicio\src\test\resources
