@@ -10414,3 +10414,127 @@ org.eclipse.core.runtime.CoreException: Launch configuration ValoresPorPantalla 
 2024-02-14 12:40:42,504 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\CallOfDutyEjercicio\src\main\resources
 2024-02-14 12:40:42,506 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2024-02-14 12:40:42,507 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\CallOfDutyEjercicio\src\test\resources
+2024-02-14 17:17:33,765 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-02-14 17:17:46,812 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-12.0.3; built: 2023-10-27T03:25:22.284Z; git: a873259fd5af141dedaa6c7fa8fe8fbdedce0d61; jvm 21.0.1+12-LTS
+2024-02-14 17:17:46,890 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started oeje8n.ContextHandler$CoreContextHandler@13aa78b{/help,/help,b=null,a=AVAILABLE,h=oeje8n.ContextHandler$CoreContextHandler$CoreToNestedHandler@44f31ce9{STARTED}}
+2024-02-14 17:17:46,891 [Start Help Server] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2024-02-14 17:17:46,920 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@185d733c{HTTP/1.1, (http/1.1)}{127.0.0.1:60839}
+2024-02-14 17:17:47,037 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@7217e522{STARTING}[12.0.3,sto=0] @53304ms
+2024-02-14 17:17:47,849 [qtp1423216028-70] INFO  o.e.j.e.nested.ContextHandler._help - Warning: No org.apache.tomcat.JarScanner set in ServletContext. Falling back to default JarScanner implementation.
+2024-02-14 17:17:48,518 [qtp1423216028-70] INFO  o.e.j.e.nested.ContextHandler._help - Warning: No org.apache.tomcat.JarScanner set in ServletContext. Falling back to default JarScanner implementation.
+2024-02-14 17:19:03,913 [Worker-4: Updating Maven Dependencies] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-02-14 17:19:05,495 [Worker-12: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-02-14 17:19:05,692 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Ruben:Tema1:0.0.1-SNAPSHOT @ D:\Users\7645\Documents\GitHub\Programacion-DAM1\Tema1\pom.xml.
+2024-02-14 17:19:05,789 [Worker-12: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Ruben:CallOfDutyEjercicio:0.0.1-SNAPSHOT @ D:\Users\7645\Documents\GitHub\Programacion-DAM1\CallOfDutyEjercicio\pom.xml.
+2024-02-14 17:19:06,378 [Worker-12: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-02-14 17:19:06,501 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-14 17:19:06,501 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Users\7645\Documents\GitHub\Programacion-DAM1\CallOfDutyEjercicio\src\main\resources
+2024-02-14 17:19:06,506 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-14 17:19:06,507 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Users\7645\Documents\GitHub\Programacion-DAM1\CallOfDutyEjercicio\src\test\resources
+2024-02-14 17:19:06,861 [Worker-10: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-02-14 17:19:06,949 [Worker-10: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-02-14 17:19:07,069 [Worker-10: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Ruben:PracticaExamenUT4:0.0.1-SNAPSHOT @ D:\Users\7645\Documents\GitHub\Programacion-DAM1\PracticaExamenUT4\pom.xml.
+2024-02-14 17:19:07,102 [Worker-10: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-02-14 17:19:07,106 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-14 17:19:07,107 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Users\7645\Documents\GitHub\Programacion-DAM1\PracticaExamenUT4\src\main\resources
+2024-02-14 17:19:07,109 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-14 17:19:07,109 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Users\7645\Documents\GitHub\Programacion-DAM1\PracticaExamenUT4\src\test\resources
+2024-02-14 17:19:07,309 [Worker-10: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-02-14 17:19:07,559 [Worker-15: Updating Maven Dependencies] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-02-14 17:19:07,637 [Worker-10: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Ruben:Tema1:0.0.1-SNAPSHOT @ D:\Users\7645\Documents\GitHub\Programacion-DAM1\Tema1\pom.xml.
+2024-02-14 17:19:07,900 [Worker-10: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-02-14 17:19:07,905 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-14 17:19:07,905 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Users\7645\Documents\GitHub\Programacion-DAM1\Tema1\src\main\resources
+2024-02-14 17:19:07,908 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-14 17:19:07,908 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Users\7645\Documents\GitHub\Programacion-DAM1\Tema1\src\test\resources
+2024-02-14 17:19:07,929 [Worker-10: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-02-14 17:19:08,036 [Worker-10: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Ruben:Tema2:0.0.1-SNAPSHOT @ D:\Users\7645\Documents\GitHub\Programacion-DAM1\Tema2\pom.xml.
+2024-02-14 17:19:08,161 [Worker-10: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-02-14 17:19:08,164 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-14 17:19:08,165 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Users\7645\Documents\GitHub\Programacion-DAM1\Tema2\src\main\resources
+2024-02-14 17:19:08,167 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-14 17:19:08,167 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Users\7645\Documents\GitHub\Programacion-DAM1\Tema2\src\test\resources
+2024-02-14 17:19:08,186 [Worker-10: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-02-14 17:19:08,404 [Worker-10: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Ruben:Tema3:0.0.1-SNAPSHOT @ D:\Users\7645\Documents\GitHub\Programacion-DAM1\Tema3\pom.xml.
+2024-02-14 17:19:08,565 [Worker-12: Updating Maven Dependencies] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-02-14 17:19:08,868 [Worker-10: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-02-14 17:19:08,873 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-14 17:19:08,875 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Users\7645\Documents\GitHub\Programacion-DAM1\Tema3\src\main\resources
+2024-02-14 17:19:08,879 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-14 17:19:08,880 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Users\7645\Documents\GitHub\Programacion-DAM1\Tema3\src\test\resources
+2024-02-14 17:19:08,960 [Worker-2: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-02-14 17:19:08,977 [Worker-2: Updating Maven Project] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-02-14 17:19:09,066 [Worker-2: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Ruben:Tema1:0.0.1-SNAPSHOT @ D:\Users\7645\Documents\GitHub\Programacion-DAM1\Tema1\pom.xml.
+2024-02-14 17:19:09,187 [Worker-2: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Ruben:Tema2:0.0.1-SNAPSHOT @ D:\Users\7645\Documents\GitHub\Programacion-DAM1\Tema2\pom.xml.
+2024-02-14 17:19:09,257 [Worker-2: Updating Maven Project] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-02-14 17:19:09,274 [Worker-2: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Tema1/src/main/java
+2024-02-14 17:19:09,274 [Worker-2: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Tema1/src/main/resources
+2024-02-14 17:19:09,275 [Worker-2: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Tema1/src/test/java
+2024-02-14 17:19:09,275 [Worker-2: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Tema1/src/test/resources
+2024-02-14 17:19:09,308 [Worker-2: Updating Maven Project] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-02-14 17:19:09,324 [Worker-2: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Tema2/src/main/java
+2024-02-14 17:19:09,325 [Worker-2: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Tema2/src/main/resources
+2024-02-14 17:19:09,326 [Worker-2: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Tema2/src/test/java
+2024-02-14 17:19:09,327 [Worker-2: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Tema2/src/test/resources
+2024-02-14 17:19:09,442 [Worker-2: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 2 poms: local refresh takes 0,00 sec, refresh facades takes 0,00 sec, update config takes 0,00 sec 
+2024-02-14 17:19:09,450 [Worker-2: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-02-14 17:19:09,460 [Worker-2: Updating Maven Project] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-02-14 17:19:09,563 [Worker-2: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Ruben:Tema3:0.0.1-SNAPSHOT @ D:\Users\7645\Documents\GitHub\Programacion-DAM1\Tema3\pom.xml.
+2024-02-14 17:19:09,570 [Worker-14: Updating Maven Dependencies] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-02-14 17:19:09,600 [Worker-2: Updating Maven Project] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-02-14 17:19:09,616 [Worker-2: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Tema3/src/main/java
+2024-02-14 17:19:09,617 [Worker-2: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Tema3/src/main/resources
+2024-02-14 17:19:09,617 [Worker-2: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Tema3/src/test/java
+2024-02-14 17:19:09,617 [Worker-2: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Tema3/src/test/resources
+2024-02-14 17:19:09,698 [Worker-2: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 0,00 sec, update config takes 0,00 sec 
+2024-02-14 17:19:09,855 [Worker-6: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-02-14 17:19:10,097 [Worker-6: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-02-14 17:19:10,101 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-14 17:19:10,101 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Users\7645\Documents\GitHub\Programacion-DAM1\Tema1\src\main\resources
+2024-02-14 17:19:10,106 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-14 17:19:10,106 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Users\7645\Documents\GitHub\Programacion-DAM1\Tema1\src\test\resources
+2024-02-14 17:19:10,281 [Worker-6: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-02-14 17:19:10,284 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-14 17:19:10,284 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Users\7645\Documents\GitHub\Programacion-DAM1\Tema2\src\main\resources
+2024-02-14 17:19:10,286 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-14 17:19:10,286 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Users\7645\Documents\GitHub\Programacion-DAM1\Tema2\src\test\resources
+2024-02-14 17:19:10,421 [Worker-6: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-02-14 17:19:10,424 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-14 17:19:10,425 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Users\7645\Documents\GitHub\Programacion-DAM1\Tema3\src\main\resources
+2024-02-14 17:19:10,427 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-14 17:19:10,427 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Users\7645\Documents\GitHub\Programacion-DAM1\Tema3\src\test\resources
+2024-02-14 17:19:10,452 [Worker-6: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-02-14 17:19:10,501 [Worker-6: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Ruben:Tema4:0.0.1-SNAPSHOT @ D:\Users\7645\Documents\GitHub\Programacion-DAM1\Tema4\pom.xml.
+2024-02-14 17:19:10,575 [Worker-16: Updating Maven Dependencies] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-02-14 17:19:10,709 [Worker-6: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-02-14 17:19:10,713 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-14 17:19:10,714 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Users\7645\Documents\GitHub\Programacion-DAM1\Tema4\src\main\resources
+2024-02-14 17:19:10,716 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-14 17:19:10,716 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Users\7645\Documents\GitHub\Programacion-DAM1\Tema4\src\test\resources
+2024-02-14 17:19:10,931 [Worker-6: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-02-14 17:19:10,985 [Worker-6: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Ruben:Tema5:0.0.1-SNAPSHOT @ D:\Users\7645\Documents\GitHub\Programacion-DAM1\Tema5\pom.xml.
+2024-02-14 17:19:11,010 [Worker-6: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-02-14 17:19:11,014 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-14 17:19:11,014 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Users\7645\Documents\GitHub\Programacion-DAM1\Tema5\src\main\resources
+2024-02-14 17:19:11,016 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-14 17:19:11,016 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Users\7645\Documents\GitHub\Programacion-DAM1\Tema5\src\test\resources
+2024-02-14 17:19:11,077 [Worker-13: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-02-14 17:19:11,085 [Worker-13: Updating Maven Project] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-02-14 17:19:11,221 [Worker-13: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Ruben:Tema4:0.0.1-SNAPSHOT @ D:\Users\7645\Documents\GitHub\Programacion-DAM1\Tema4\pom.xml.
+2024-02-14 17:19:11,291 [Worker-13: Updating Maven Project] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-02-14 17:19:11,308 [Worker-13: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Tema4/src/main/java
+2024-02-14 17:19:11,309 [Worker-13: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Tema4/src/main/resources
+2024-02-14 17:19:11,309 [Worker-13: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Tema4/src/test/java
+2024-02-14 17:19:11,309 [Worker-13: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Tema4/src/test/resources
+2024-02-14 17:19:11,393 [Worker-13: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 0,00 sec, update config takes 0,00 sec 
+2024-02-14 17:19:11,615 [Worker-12: Updating Maven Dependencies] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-02-14 17:19:11,722 [Worker-12: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Ruben:Tema1:0.0.1-SNAPSHOT @ D:\Users\7645\Documents\GitHub\Programacion-DAM1\Tema1\pom.xml.
+2024-02-14 17:19:11,855 [Worker-12: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Ruben:Tema3:0.0.1-SNAPSHOT @ D:\Users\7645\Documents\GitHub\Programacion-DAM1\Tema3\pom.xml.
+2024-02-14 17:19:12,085 [Worker-17: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-02-14 17:19:12,092 [Worker-17: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-02-14 17:19:12,293 [Worker-17: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-02-14 17:19:12,296 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-14 17:19:12,297 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Users\7645\Documents\GitHub\Programacion-DAM1\Tema4\src\main\resources
+2024-02-14 17:19:12,299 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-14 17:19:12,299 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Users\7645\Documents\GitHub\Programacion-DAM1\Tema4\src\test\resources
+2024-02-14 17:19:12,500 [Worker-17: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
