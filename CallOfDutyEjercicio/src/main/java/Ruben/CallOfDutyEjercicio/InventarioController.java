@@ -47,8 +47,8 @@ public class InventarioController {
 	}
 	
 	//
-	public void addArma() {
-		
+	public void addArma(Usuario usuario, int numero) {
+		usuario.setArmaPrincipal(armasPrincipales[numero]);
 	}
 	
 	//

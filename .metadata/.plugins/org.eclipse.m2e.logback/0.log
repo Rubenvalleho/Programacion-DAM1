@@ -10401,3 +10401,16 @@ org.eclipse.core.runtime.CoreException: Launch configuration ValoresPorPantalla 
 2024-02-13 19:40:33,595 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\CallOfDutyEjercicio\src\main\resources
 2024-02-13 19:40:33,596 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2024-02-13 19:40:33,596 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\CallOfDutyEjercicio\src\test\resources
+2024-02-14 12:23:00,322 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-02-14 12:40:20,344 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-14 12:40:20,346 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\CallOfDutyEjercicio\src\main\resources
+2024-02-14 12:40:20,351 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-14 12:40:20,351 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\CallOfDutyEjercicio\src\test\resources
+2024-02-14 12:40:38,090 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-14 12:40:38,091 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\CallOfDutyEjercicio\src\main\resources
+2024-02-14 12:40:38,094 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-14 12:40:38,094 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\CallOfDutyEjercicio\src\test\resources
+2024-02-14 12:40:42,504 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-14 12:40:42,504 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\CallOfDutyEjercicio\src\main\resources
+2024-02-14 12:40:42,506 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-14 12:40:42,507 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\eclipse-workspace-dam\Programacion-DAM1\CallOfDutyEjercicio\src\test\resources
