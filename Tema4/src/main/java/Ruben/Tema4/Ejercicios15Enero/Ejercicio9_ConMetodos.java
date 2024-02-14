@@ -101,7 +101,6 @@ public class Ejercicio9_ConMetodos {
 		};
 		
 		int [] arrayFilas = new int [array.length];
-		
 		int [] arrayColumnas = new int [array.length];
 		
 		//Ejercicio9_ConMetodos.mostrarMatriz(array, "Matriz prueba");
