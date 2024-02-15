@@ -30,7 +30,7 @@ public class OrdenarArray {
 		int numeroPosterior;
 		
 		for (int i = 0; i < array.length -1; i++) {
-			for (int e = 0; e < array.length - 1; e++) {
+			for (int e = 0; e < array.length -i - 1; e++) {
 				if (array[e] > array[e+1]) {
 					numeroPosterior = array[e+1];
 					array[e+1] = array[e];
