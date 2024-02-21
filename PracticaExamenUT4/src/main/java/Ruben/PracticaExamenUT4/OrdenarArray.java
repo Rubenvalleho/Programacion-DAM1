@@ -8,7 +8,7 @@ public class OrdenarArray {
 		Random random = new Random();
 		int [] array = new int [10];
 		
-		for (int i = 0; i < array.length - 1; i++) {
+		for (int i = 0; i < array.length; i++) {
 			array [i] = random.nextInt(10)+1;
 			System.out.print(array[i] + " | ");
 		}

@@ -1,6 +1,6 @@
 package Ruben.Tema5.ListaSimple2;
 
-public class ListaSimple implements Lista {
+public class ListaHermanaTorpe implements Lista{
 
 	private Nodo primero;
 	private int tamaño;
@@ -205,36 +205,8 @@ public class ListaSimple implements Lista {
 	}
 	
 	
-	
-	
-	public static void main(String[] args) {
-		ListaSimple lista = new ListaSimple();
-		Persona persona1 = new Persona ("Ruben", 24);
-		Persona persona2 = new Persona("Antonio", 25);
-		Persona persona3 = new Persona ("Toto", 33);
-		
-		lista.insertAtBegin(persona1);
-		lista.insertAtEnd(persona2);
-		//lista.insertAtEnd(persona3);
-		lista.insertAtPosition(persona3, 1);
-		
-		System.out.println(lista.isEmpty());
-		System.out.println(lista.getFirst());
-		System.out.println(lista.getLast());
-		System.out.println(lista.containsInfo(persona3));
-		System.out.println(lista.size());
-		lista.print();
-		System.out.println(lista.getElementAt(2));
-		
-		System.out.println(lista.removeByInfo(persona1));
-		lista.print();
-		
-		System.out.println(lista.clearList());
-		lista.print();
-		//lista.insertAtBegin(new Persona("David",22));
-		
+	public static void main (String [] args) {
 		
 		
 	}
-
 }
