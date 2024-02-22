@@ -3,19 +3,16 @@ package Ruben.Tema5.ListaSimple2;
 public class ListaSimple implements Lista {
 
 	private Nodo primero;
-	private int tamaño;
+	private int tamaño = 0;
 	//metodo main
 	
 	//Metodos a redefinir
 	@Override
 	public boolean isEmpty() {
-		
-		if (primero==null) {
+		if (tamaño == 0) {
 			return true;
 		}
-		else {
-			return false;
-		}
+		return false;
 	}
 
 	@Override
@@ -155,14 +152,22 @@ public class ListaSimple implements Lista {
 				anterior = anterior.getSig();
 			}
 		}
-		
+		tamaño--;
 		return false;
 	}
 
 	@Override
-	public Persona removeAt(int index) {
-		// TODO Auto-generated method stub
-		return null;
+	public void removeAt(int index) {
+		Nodo anterior = primero;
+		if (index==0) {
+			primero = null;
+		}
+		else {
+			for (int i = 0; i < index; i++) {
+				anterior = anterior.getSig();
+			}
+			anterior.setSig(null);
+		}
 	}
 
 	@Override
@@ -184,24 +189,13 @@ public class ListaSimple implements Lista {
 
 	@Override
 	public boolean clearList() {
-		if (primero!=null) {
-			primero = null;
-			return true;
-		}
-		return false;
+		primero = null;
+		return isEmpty();
 	}
 
 	@Override
 	public int size() {
-		int contador = 0;
-		Nodo aux = primero;
-		
-		while (aux != null) {
-			aux = aux.getSig();
-			contador++;
-		}
-		
-		return contador;
+		return tamaño;
 	}
 	
 	
@@ -229,8 +223,13 @@ public class ListaSimple implements Lista {
 		System.out.println(lista.removeByInfo(persona1));
 		lista.print();
 		
+		//lista.removeAt(0);
+		lista.print();
+		
 		System.out.println(lista.clearList());
 		lista.print();
+		
+		
 		//lista.insertAtBegin(new Persona("David",22));
 		
 		

@@ -3,7 +3,6 @@ package Ruben.Tema5.ListaSimple2;
 public class ListaHermanaTorpe implements Lista{
 
 	private Nodo primero;
-	private int tamaño;
 	//metodo main
 	
 	//Metodos a redefinir
@@ -54,7 +53,6 @@ public class ListaHermanaTorpe implements Lista{
 			nuevo.setSig(primero);;
 		}
 		primero = nuevo;
-		tamaño++;
 	}
 
 	@Override
@@ -76,7 +74,6 @@ public class ListaHermanaTorpe implements Lista{
 				}
 			}
 		}
-		tamaño++;
 	}
 
 	@Override
@@ -100,7 +97,6 @@ public class ListaHermanaTorpe implements Lista{
 				nuevo.setSig(aux);
 			}
 		}
-		tamaño++;
 	}
 
 	@Override
@@ -123,15 +119,14 @@ public class ListaHermanaTorpe implements Lista{
 		
 		if (index==0) {
 			return aux.getPersona();
-		}
-		else if (index < tamaño) {
+			
+		} else {
 			for (int i = 1; i <= index; i++) {
 				aux = aux.getSig();
 			}
 			return aux.getPersona();
 		}
 		
-		return null;
 	}
 
 	@Override
@@ -160,9 +155,8 @@ public class ListaHermanaTorpe implements Lista{
 	}
 
 	@Override
-	public Persona removeAt(int index) {
-		// TODO Auto-generated method stub
-		return null;
+	public void removeAt(int index) {
+		
 	}
 
 	@Override
@@ -184,11 +178,11 @@ public class ListaHermanaTorpe implements Lista{
 
 	@Override
 	public boolean clearList() {
-		if (primero!=null) {
+		if (!isEmpty()) {
 			primero = null;
-			return true;
+			return isEmpty();
 		}
-		return false;
+		return !isEmpty();
 	}
 
 	@Override
