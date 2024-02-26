@@ -87,12 +87,11 @@ public class ListaSimple implements Lista {
 			
 		} else {
 			
-			for (int i = 0; i < index; i++) {
+			for (int i = 1; i < index; i++) {
 				aux = aux.getSig();
 			}
 			nuevo.setSig(aux.getSig());
 			aux.setSig(nuevo);
-			
 			
 		}
 		tamaño++;
