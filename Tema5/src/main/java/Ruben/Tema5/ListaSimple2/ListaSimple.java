@@ -79,23 +79,21 @@ public class ListaSimple implements Lista {
 	@Override
 	public void insertAtPosition(Persona persona, int index) {
 		Nodo nuevo = new Nodo (persona);
-		Nodo aux = primero.getSig();
-		Nodo anterior = primero;
+		Nodo aux = primero;
 		
 		if (index==0) {
+			
 			insertAtBegin(persona);
-		}
-		else {
-			for (int i = 1; i < index; i++) {
+			
+		} else {
+			
+			for (int i = 0; i < index; i++) {
 				aux = aux.getSig();
-				anterior = anterior.getSig();
 			}
+			nuevo.setSig(aux.getSig());
+			aux.setSig(nuevo);
 			
-			anterior.setSig(nuevo);
 			
-			if (aux!=null) {
-				nuevo.setSig(aux);
-			}
 		}
 		tamaño++;
 	}
@@ -226,8 +224,8 @@ public class ListaSimple implements Lista {
 		//lista.removeAt(0);
 		lista.print();
 		
-		System.out.println(lista.clearList());
-		lista.print();
+		//System.out.println(lista.clearList());
+		//lista.print();
 		
 		
 		//lista.insertAtBegin(new Persona("David",22));
