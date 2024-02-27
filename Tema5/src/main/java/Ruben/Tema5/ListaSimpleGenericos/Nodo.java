@@ -22,7 +22,7 @@ public class Nodo <T>{
 		return sig;
 	}
 
-	public void setSig(Nodo sig) {
+	public void setSig(Nodo<T> sig) {
 		this.sig = sig;
 	}
 

@@ -1,6 +1,6 @@
 package Ruben.Tema5.ListaSimpleGenericos;
 
-public class ListaSimple<T> implements ListaGenericos {
+public class ListaSimple<T> implements ListaGenericos<T> {
 
 	private Nodo<T> primero;
 	private int tam;
@@ -48,8 +48,8 @@ public class ListaSimple<T> implements ListaGenericos {
 	}
 
 	@Override
-	public void insertAtEnd(T) {
-		Nodo<T> nuevo = new Nodo<T>();
+	public void insertAtEnd(T info) {
+		Nodo<T> nuevo = new Nodo<T>(info);
 		if (isEmpty()) {
 			primero = nuevo;
 		} else {
@@ -150,7 +150,7 @@ public class ListaSimple<T> implements ListaGenericos {
 			if (primero.getInfo().equals(info)) {
 				Nodo<T> borrar = primero;
 				primero = primero.getSig();
-				deleteNodo<T>(borrar);
+				deleteNodo(borrar);
 				resultado = true;
 			} else {
 				Nodo<T> ant = primero;
@@ -159,7 +159,7 @@ public class ListaSimple<T> implements ListaGenericos {
 				while (borrar != null) {
 					if (borrar.getInfo().equals(info)) {
 						ant.setSig(borrar.getSig());
-						deleteNodo<T>(borrar);
+						deleteNodo(borrar);
 						resultado = true;
 						break;
 					}
@@ -171,7 +171,7 @@ public class ListaSimple<T> implements ListaGenericos {
 		return resultado;
 	}
 
-	private void deleteNodo<T>(Nodo<T> borrar) {
+	private void deleteNodo(Nodo<T> borrar) {
 		borrar.setSig(null);
 		tam--;
 	}

@@ -15,5 +15,12 @@ public class ArmaSecundaria extends Arma{
 	public void setTipo(String tipo) {
 		this.tipo = tipo;
 	}
+	
+	public String toString() {
+		return  "\nNombre del arma: " + getNombre() + 
+				"\nEspacios que ocupa: " + getEspaciosEnMochila() +
+				"\nDaño por segundo: " + getDañoPorSegundo() + 
+				"\nEl tipo de arma es: " + getTipo();
+	}
 }
 

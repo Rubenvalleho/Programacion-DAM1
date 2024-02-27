@@ -57,6 +57,10 @@ public class InventarioController {
 		if (claseArma == 1 || claseArma == 2) {
 			
 			if (claseArma==1) {
+				for (int i = 0; i < armasPrincipales.length; i++) {
+					System.out.println(armasPrincipales[i]);
+				}
+				
 				System.out.println("\nEscribe el nombre del arma: ");
 				String nombreArmaPrincipal = scanner.next();
 				System.out.println("\nEscribe el espacio que ocupa el arma: ");
@@ -81,6 +85,10 @@ public class InventarioController {
 				}
 				
 			} else {
+				for (int i = 0; i < armasSecundarias.length; i++) {
+					System.out.println(armasSecundarias[i]);
+				}
+				
 				System.out.println("\nEscribe el nombre del arma: ");
 				String nombreArmaSecundaria = scanner.next();
 				System.out.println("\nEscribe el espacio que ocupa el arma: ");
@@ -114,6 +122,14 @@ public class InventarioController {
 	
 	//
 	public void addAccesorio() {
+		Scanner scanner = new Scanner(System.in);
+		
+		for (int i = 0; i < accesorios.length -1; i++) {
+			System.out.println(accesorios[i]);
+		}
+		
+		System.out.println("\nEscribe el nombre del accesorio: ");
+		String nombre = scanner.next();
 		
 	}
 	
