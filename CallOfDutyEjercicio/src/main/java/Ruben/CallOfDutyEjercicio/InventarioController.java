@@ -1,5 +1,7 @@
 package Ruben.CallOfDutyEjercicio;
 
+import java.util.Scanner;
+
 public class InventarioController {
 	
 	private final int TAM_INVENTARIO_DEF = 10;
@@ -47,12 +49,71 @@ public class InventarioController {
 	}
 	
 	//
-	public void addArma(Usuario usuario, int numero) {
-		usuario.setArmaPrincipal(armasPrincipales[numero]);
+	public void addArma() {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("\nElige la clase de arma: \n[1] ARMA PRINCIPAL \n [2] ARMA SECUNDARIA");
+		int claseArma = scanner.nextInt();
+		
+		if (claseArma == 1 || claseArma == 2) {
+			
+			if (claseArma==1) {
+				System.out.println("\nEscribe el nombre del arma: ");
+				String nombreArmaPrincipal = scanner.next();
+				System.out.println("\nEscribe el espacio que ocupa el arma: ");
+				int espacio = scanner.nextInt();
+				System.out.println("\nEscribe el daño por segundo que hace el arma: ");
+				int dps = scanner.nextInt();
+				System.out.println("\nEscribe el tipo de arma que es");
+				String tipoArma = scanner.next();
+				
+				for (int i = 0; i < armasPrincipales.length - 1; i++) {
+					if (armasPrincipales[i] == null) {
+						armasPrincipales[i] = new ArmaPrincipal(espacio, nombreArmaPrincipal, dps, tipoArma);
+						break;
+					}
+				} 
+				
+				System.out.println("\nArma añadida a armas principales: ");
+				for (int i = 0; i < armasPrincipales.length - 1; i++) {
+					if (armasPrincipales[i]!=null) {
+						System.out.println(armasPrincipales[i]);
+					}	
+				}
+				
+			} else {
+				System.out.println("\nEscribe el nombre del arma: ");
+				String nombreArmaSecundaria = scanner.next();
+				System.out.println("\nEscribe el espacio que ocupa el arma: ");
+				int espacio = scanner.nextInt();
+				System.out.println("\nEscribe el daño por segundo que hace el arma: ");
+				int dps = scanner.nextInt();
+				System.out.println("\nEscribe el tipo de arma que es");
+				String tipoArma = scanner.next();
+				
+				for (int i = 0; i < armasSecundarias.length - 1; i++) {
+					if (armasSecundarias[i] == null) {
+						armasSecundarias[i] = new ArmaPrincipal(espacio, nombreArmaSecundaria, dps, tipoArma);
+						break;
+					}
+				} 
+				
+				System.out.println("\nArma añadida a armas secundarias: ");
+				for (int i = 0; i < armasSecundarias.length - 1; i++) {
+					if (armasSecundarias[i]!=null) {
+						System.out.println(armasSecundarias[i]);
+					}	
+				}
+				
+			}
+			
+		} else {
+			
+			System.out.println("Has elegido un numero incorrecto");
+		}
 	}
 	
 	//
-	public void addEquipamiento() {
+	public void addAccesorio() {
 		
 	}
 	

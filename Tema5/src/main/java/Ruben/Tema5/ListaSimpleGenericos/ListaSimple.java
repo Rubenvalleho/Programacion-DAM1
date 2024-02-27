@@ -1,8 +1,8 @@
 package Ruben.Tema5.ListaSimpleGenericos;
 
-public class ListaSimple implements Lista {
+public class ListaSimple<T> implements ListaGenericos {
 
-	private Nodo primero;
+	private Nodo<T> primero;
 	private int tam;
 
 	public ListaSimple() {
@@ -16,30 +16,30 @@ public class ListaSimple implements Lista {
 	}
 
 	@Override
-	public Persona getFirst() {
-		Persona persona = null;
+	public T getFirst() {
+		T T = null;
 		if (!isEmpty()) {
-			persona = primero.getInfo();
+			T = primero.getInfo();
 		}
-		return persona;
+		return T;
 	}
 
 	@Override
-	public Persona getLast() {
-		Persona persona = null;
+	public T getLast() {
+		T T = null;
 		if (!isEmpty()) {
-			Nodo aux = primero;
+			Nodo<T> aux = primero;
 			while (aux.getSig() != null) {
 				aux = aux.getSig();
 			}
-			persona = aux.getInfo();
+			T = aux.getInfo();
 		}
-		return persona;
+		return T;
 	}
 
 	@Override
-	public void insertAtBegin(Persona info) {
-		Nodo nuevo = new Nodo(info);
+	public void insertAtBegin(T info) {
+		Nodo<T> nuevo = new Nodo<T>(info);
 		if (!isEmpty()) {
 			nuevo.setSig(primero);
 		}
@@ -48,12 +48,12 @@ public class ListaSimple implements Lista {
 	}
 
 	@Override
-	public void insertAtEnd(Persona info) {
-		Nodo nuevo = new Nodo(info);
+	public void insertAtEnd(T) {
+		Nodo<T> nuevo = new Nodo<T>();
 		if (isEmpty()) {
 			primero = nuevo;
 		} else {
-			Nodo aux = this.primero;
+			Nodo<T> aux = this.primero;
 			while (aux.getSig() != null) {
 				aux = aux.getSig();
 			}
@@ -64,9 +64,9 @@ public class ListaSimple implements Lista {
 	}
 
 	@Override
-	public void insertAtPosition(Persona info, int index) {
+	public void insertAtPosition(T info, int index) {
 		if (index >= 0 && index <= tam) {
-			Nodo nuevo = new Nodo(info);
+			Nodo<T> nuevo = new Nodo<T>(info);
 			// Opciones
 			// Inserto al ppio
 			// Inserto al final
@@ -75,7 +75,7 @@ public class ListaSimple implements Lista {
 				nuevo.setSig(primero);
 				primero = nuevo;
 			} else {
-				Nodo aux = primero;
+				Nodo<T> aux = primero;
 				if (index == tam) {
 					while (aux.getSig() != null) {
 						aux = aux.getSig();
@@ -93,9 +93,9 @@ public class ListaSimple implements Lista {
 		}
 	}
 
-	public void insertAtPosition2(Persona info, int index) {
+	public void insertAtPosition2(T info, int index) {
 		if (index >= 0 && index <= tam) {
-			Nodo nuevo = new Nodo(info);
+			Nodo<T> nuevo = new Nodo<T>(info);
 			// Opciones
 			// Inserto al ppio
 			// Inserto en otras posiciones
@@ -103,7 +103,7 @@ public class ListaSimple implements Lista {
 				nuevo.setSig(primero);
 				primero = nuevo;
 			} else {
-				Nodo aux = primero;
+				Nodo<T> aux = primero;
 				for (int i = 1; i < index; i++) {
 					aux = aux.getSig();
 				}
@@ -115,10 +115,10 @@ public class ListaSimple implements Lista {
 	}
 
 	@Override
-	public boolean containsInfo(Persona info) {
+	public boolean containsInfo(T info) {
 		boolean resultado = false;
 		if (!isEmpty()) {
-			Nodo aux = primero;
+			Nodo<T> aux = primero;
 			while (aux != null) {
 				if (aux.getInfo().equals(info)) {
 					resultado = true;
@@ -131,35 +131,35 @@ public class ListaSimple implements Lista {
 	}
 
 	@Override
-	public Persona getElementAt(int index) {
-		Persona persona = null;
+	public T getElementAt(int index) {
+		T T = null;
 		if (!isEmpty() && index >= 0 && index < tam) {
-			Nodo aux = primero;
+			Nodo<T> aux = primero;
 			for (int i = 0; i < index; i++) {
 				aux = aux.getSig();
 			}
-			persona = aux.getInfo();
+			T = aux.getInfo();
 		}
-		return persona;
+		return T;
 	}
 
 	@Override
-	public boolean removeByInfo(Persona info) {
+	public boolean removeByInfo(T info) {
 		boolean resultado = false;
 		if (!isEmpty()) {
 			if (primero.getInfo().equals(info)) {
-				Nodo borrar = primero;
+				Nodo<T> borrar = primero;
 				primero = primero.getSig();
-				deleteNodo(borrar);
+				deleteNodo<T>(borrar);
 				resultado = true;
 			} else {
-				Nodo ant = primero;
-				Nodo borrar = primero.getSig();
+				Nodo<T> ant = primero;
+				Nodo<T> borrar = primero.getSig();
 
 				while (borrar != null) {
 					if (borrar.getInfo().equals(info)) {
 						ant.setSig(borrar.getSig());
-						deleteNodo(borrar);
+						deleteNodo<T>(borrar);
 						resultado = true;
 						break;
 					}
@@ -171,22 +171,22 @@ public class ListaSimple implements Lista {
 		return resultado;
 	}
 
-	private void deleteNodo(Nodo borrar) {
+	private void deleteNodo<T>(Nodo<T> borrar) {
 		borrar.setSig(null);
 		tam--;
 	}
 
 	@Override
-	public Persona removeAt(int index) {
-		Persona info = null;
+	public T removeAt(int index) {
+		T info = null;
 		if (index >= 0 && index < tam) {
-			Nodo borrar = null;
+			Nodo<T> borrar = null;
 			if (index == 0) {
 				borrar = primero;
 				primero = primero.getSig();
 				borrar.setSig(null);
 			} else {
-				Nodo ant = primero;
+				Nodo<T> ant = primero;
 				borrar = primero.getSig();
 
 				for (int i = 1; i < index; i++) {
@@ -213,7 +213,7 @@ public class ListaSimple implements Lista {
 		if (isEmpty()) {
 			System.out.println("La lista está vacía!!");
 		} else {
-			Nodo aux = primero;
+			Nodo<T> aux = primero;
 
 			while (aux != null) {
 				System.out.println(aux.getInfo());

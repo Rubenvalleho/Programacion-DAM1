@@ -6,6 +6,8 @@ public class Main {
 		InventarioController inventarioController = new InventarioController();
 		
 		inventarioController.mostrarInventario();
+		
+		inventarioController.addArma();
 
 	}
 
