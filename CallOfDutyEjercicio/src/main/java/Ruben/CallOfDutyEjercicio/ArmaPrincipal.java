@@ -17,7 +17,8 @@ public class ArmaPrincipal extends Arma{
 	}
 	
 	public String toString() {
-		return  "\nNombre del arma: " + getNombre() + 
+		return  "\nID del arma principal: " + getId() +
+				"\nNombre del arma: " + getNombre() + 
 				"\nEspacios que ocupa: " + getEspaciosEnMochila() +
 				"\nDaño por segundo: " + getDañoPorSegundo() + 
 				"\nEl tipo de arma es: " + getTipo();

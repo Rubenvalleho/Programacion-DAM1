@@ -27,7 +27,8 @@ public class Accesorio extends Equipamiento{
 	}
 	
 	public String toString() {
-		return  "\nEl nombre del accesorio es: " + getNombre() +
+		return  "\nID del accesorio: " + getId() +
+				"\nEl nombre del accesorio es: " + getNombre() +
 				"\nEl espacio que ocupa es: " + getEspaciosEnMochila() +
 				"\nSu utilidad es: " + getUtilidad();
 	}

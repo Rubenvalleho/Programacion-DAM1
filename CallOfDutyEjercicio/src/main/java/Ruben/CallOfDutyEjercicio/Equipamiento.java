@@ -1,11 +1,12 @@
 package Ruben.CallOfDutyEjercicio;
 
 public class Equipamiento {
-	private int id = 0;
+	private int id;
+	private static int contador = 0; 
 	private int espaciosEnMochila;
 	
 	public Equipamiento (int espaciosEnMochila) {
-		id++;
+		this.id = contador++;
 		this.espaciosEnMochila = espaciosEnMochila;
 	}
 	

@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class InventarioController {
 	
 	private final int TAM_INVENTARIO_DEF = 10;
+	private final int TAM_ACCESORIOS_USU = 3;
 	
 	private Equipamiento[] armasPrincipales;
 	private Equipamiento[] armasSecundarias;
@@ -58,7 +59,9 @@ public class InventarioController {
 			
 			if (claseArma==1) {
 				for (int i = 0; i < armasPrincipales.length; i++) {
-					System.out.println(armasPrincipales[i]);
+					if (armasPrincipales[i]!=null) {
+						System.out.println(armasPrincipales[i]);
+					}
 				}
 				
 				System.out.println("\nEscribe el nombre del arma: ");
@@ -86,7 +89,10 @@ public class InventarioController {
 				
 			} else {
 				for (int i = 0; i < armasSecundarias.length; i++) {
-					System.out.println(armasSecundarias[i]);
+					if (armasSecundarias[i]!=null) {
+						System.out.println(armasSecundarias[i]);
+					}
+					
 				}
 				
 				System.out.println("\nEscribe el nombre del arma: ");
@@ -100,7 +106,7 @@ public class InventarioController {
 				
 				for (int i = 0; i < armasSecundarias.length - 1; i++) {
 					if (armasSecundarias[i] == null) {
-						armasSecundarias[i] = new ArmaPrincipal(espacio, nombreArmaSecundaria, dps, tipoArma);
+						armasSecundarias[i] = new ArmaSecundaria(espacio, nombreArmaSecundaria, dps, tipoArma);
 						break;
 					}
 				} 
@@ -125,23 +131,114 @@ public class InventarioController {
 		Scanner scanner = new Scanner(System.in);
 		
 		for (int i = 0; i < accesorios.length -1; i++) {
-			System.out.println(accesorios[i]);
+			if (accesorios[i]!=null) {
+				System.out.println(accesorios[i]);
+			}
+			
 		}
 		
 		System.out.println("\nEscribe el nombre del accesorio: ");
 		String nombre = scanner.next();
+		System.out.println("\nEscribe el espacio que ocupa: ");
+		int espacio = scanner.nextInt();
+		System.out.println("\nEscribe la utilidad del accesorio: ");
+		String utilidad = scanner.next();
 		
+		for (int i = 0; i < accesorios.length; i++) {
+			if (accesorios[i]==null) {
+				accesorios[i] = new Accesorio(espacio, nombre, utilidad);
+				break;
+			}
+		}
+		
+		System.out.println("\nAccesorio añadido");
+		for (int i = 0; i < accesorios.length - 1; i++) {
+			if (accesorios[i]!=null) {
+				System.out.println(accesorios[i]);
+			}
+			
+		}
 	}
 	
 	//
-	public void equiparUsuario () {
+	public void equiparUsuario (Usuario usuario) {
+		Scanner scanner = new Scanner(System.in);
+		mostrarInventario();
+		System.out.println("\nElige el ID de un arma principal: ");
+		int armaPrincipal = scanner.nextInt();
+		System.out.println("\nElige el arma secundaria: ");
+		int armaSecundaria = scanner.nextInt();
+		System.out.println("\nElige el primer accesorio: ");
+		int primerAccesorio = scanner.nextInt();
+		System.out.println("\nElige el segundo accesorio: ");
+		int segundoAccesorio = scanner.nextInt();
+		System.out.println("\nElige el tercer accesorio: ");
+		int tercerAccesorio = scanner.nextInt();
 		
+		for (int i = 0; i < armasPrincipales.length -1; i++) {
+			if (armasPrincipales!=null) {
+				if (armasPrincipales[i].getId() == armaPrincipal) {
+					usuario.setArmaPrincipal(armasPrincipales[i]);
+				}
+			}
+			
+		}
+		
+		for (int i = 0; i < armasSecundarias.length - 1; i++) {
+			if (armasSecundarias[i].getId() == armaSecundaria) {
+				usuario.setArmaSecundaria(armasSecundarias[i]);
+			}
+		}
+		
+		Accesorio [] accesoriosUsuarios = new Accesorio [TAM_ACCESORIOS_USU];
+		for (int i = 0; i < accesorios.length - 1; i++) {
+			if (accesorios[i].getId() == primerAccesorio) {
+				accesoriosUsuarios[0] = (Accesorio) accesorios[i]; 
+			}
+			
+			if (accesorios[i].getId() == segundoAccesorio) {
+				accesoriosUsuarios[1] = (Accesorio) accesorios[i];
+			}
+			
+			if (accesorios[i].getId() == tercerAccesorio) {
+				accesoriosUsuarios[2] = (Accesorio) accesorios[i];
+			}
+		}
+		usuario.setAccesorios(accesoriosUsuarios);
+		System.out.println("\nTodo equipado.");
+		usuario.toString();
 	}
 	
 	
 	//
-	public void desequiparUsuario() {
+	public void desequiparUsuario(Usuario usuario) {
+		Scanner scanner = new Scanner (System.in);
+		System.out.println(usuario.toString());
 		
+		System.out.println("\n¿Que quieres desequipar? \n[1] Arma principal \n[2] Arma secundaria \n[3]Accesorios");
+		int desequipar = scanner.nextInt();
+		
+		if (desequipar == 1) {
+			usuario.setArmaPrincipal(null);
+		}
+		else if (desequipar == 2) {
+			usuario.setArmaSecundaria(null);
+		}
+		else if (desequipar == 3) {
+			usuario.getAccesorios().toString();
+			System.out.println("\nSelecciona el accesorio a desequipar: ");
+			String nombreAccesorio = scanner.next();
+			
+			for (int i = 0; i < usuario.getAccesorios().length; i++) {
+				if (usuario.getAccesorios()[i].getNombre() == nombreAccesorio) {
+					usuario.getAccesorios()[i] = null;
+				}
+			}
+		}
+		else {
+			System.out.println("No escribiste un numero valido");
+			desequiparUsuario(usuario);
+		}
 	}
 	
 }

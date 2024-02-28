@@ -1,19 +1,25 @@
 package Ruben.CallOfDutyEjercicio;
 
+import java.util.Arrays;
+
 public class Usuario {
 	private String nombre;
 	private int espaciosMochila;
 	private Equipamiento armaPrincipal;
 	private Equipamiento armaSecundaria;
 	//private ArrayList<Accesorio> accesorios;
-	private Accesorio [] accesorios;
+	private Accesorio [] accesoriosUsuario;
 	
-	public Usuario (String nombre, int espaciosMochila, Equipamiento armaPrincipal, Equipamiento armaSecundaria, Accesorio[] accesorios) {
+	public Usuario (String nombre, int espaciosMochila, Equipamiento armaPrincipal, Equipamiento armaSecundaria, Accesorio[] accesoriosUsuario) {
 		this.nombre = nombre;
 		this.espaciosMochila = espaciosMochila;
 		this.armaPrincipal = armaPrincipal;
 		this.armaSecundaria = armaSecundaria;
-		this.accesorios = accesorios;
+		this.accesoriosUsuario = accesoriosUsuario;
+	}
+	
+	public Usuario (String nombre) {
+		this.nombre = nombre;
 	}
 
 	public String getNombre() {
@@ -44,17 +50,24 @@ public class Usuario {
 		return (Arma) armaSecundaria;
 	}
 
-	public void setArmaSecundaria(Arma armaSecundaria) {
-		this.armaSecundaria = armaSecundaria;
+	public void setArmaSecundaria(Equipamiento armasSecundarias) {
+		this.armaSecundaria = armasSecundarias;
 	}
 
 	public Accesorio[] getAccesorios() {
-		return accesorios;
+		return accesoriosUsuario;
 	}
 
-	public void setAccesorios(Accesorio[] accesorios) {
-		this.accesorios = accesorios;
+	public void setAccesorios(Accesorio[] accesoriosUsuario) {
+		this.accesoriosUsuario = accesoriosUsuario;
 	}
+
+	@Override
+	public String toString() {
+		return "Usuario [nombre=" + nombre + ", espaciosMochila=" + espaciosMochila + ", armaPrincipal=" + armaPrincipal
+				+ ", armaSecundaria=" + armaSecundaria + ", accesorios=" + Arrays.toString(accesoriosUsuario) + "]";
+	}
+	
 	
 	
 	
