@@ -31,6 +31,7 @@ public class InventarioController {
 		this.accesorios = new Accesorio[TAM_INVENTARIO_DEF];
 		this.accesorios[0] = new Accesorio (1, "Granada", "Explosión");
 		this.accesorios[1] = new Accesorio (2, "Claymore", "Explosión");
+		this.accesorios[2] = new Accesorio(1, "sdfjerv", "cidff");
 	}
 
 	
@@ -175,8 +176,8 @@ public class InventarioController {
 		System.out.println("\nElige el tercer accesorio: ");
 		int tercerAccesorio = scanner.nextInt();
 		
-		for (int i = 0; i < armasPrincipales.length -1; i++) {
-			if (armasPrincipales!=null) {
+		for (int i = 0; i < armasPrincipales.length; i++) {
+			if (armasPrincipales[i]!=null) {
 				if (armasPrincipales[i].getId() == armaPrincipal) {
 					usuario.setArmaPrincipal(armasPrincipales[i]);
 				}
@@ -184,29 +185,35 @@ public class InventarioController {
 			
 		}
 		
-		for (int i = 0; i < armasSecundarias.length - 1; i++) {
-			if (armasSecundarias[i].getId() == armaSecundaria) {
-				usuario.setArmaSecundaria(armasSecundarias[i]);
+		for (int i = 0; i < armasSecundarias.length; i++) {
+			if (armasSecundarias[i]!=null) {
+				if (armasSecundarias[i].getId() == armaSecundaria) {
+					usuario.setArmaSecundaria(armasSecundarias[i]);
+				}
 			}
+			
 		}
 		
-		Accesorio [] accesoriosUsuarios = new Accesorio [TAM_ACCESORIOS_USU];
-		for (int i = 0; i < accesorios.length - 1; i++) {
-			if (accesorios[i].getId() == primerAccesorio) {
-				accesoriosUsuarios[0] = (Accesorio) accesorios[i]; 
+		Accesorio [] accesoriosUsuarios = new Accesorio [3];
+		for (int i = 0; i < accesorios.length; i++) {
+			if (accesorios[i]!=null) {
+				if (accesorios[i].getId() == primerAccesorio) {
+					accesoriosUsuarios[0] = (Accesorio) accesorios[i]; 
+				}
+				
+				if (accesorios[i].getId() == segundoAccesorio) {
+					accesoriosUsuarios[1] = (Accesorio) accesorios[i];
+				}
+				
+				if (accesorios[i].getId() == tercerAccesorio) {
+					accesoriosUsuarios[2] = (Accesorio) accesorios[i];
+				}
 			}
 			
-			if (accesorios[i].getId() == segundoAccesorio) {
-				accesoriosUsuarios[1] = (Accesorio) accesorios[i];
-			}
-			
-			if (accesorios[i].getId() == tercerAccesorio) {
-				accesoriosUsuarios[2] = (Accesorio) accesorios[i];
-			}
 		}
 		usuario.setAccesorios(accesoriosUsuarios);
 		System.out.println("\nTodo equipado.");
-		usuario.toString();
+		System.out.println(usuario);
 	}
 	
 	
@@ -225,12 +232,11 @@ public class InventarioController {
 			usuario.setArmaSecundaria(null);
 		}
 		else if (desequipar == 3) {
-			usuario.getAccesorios().toString();
 			System.out.println("\nSelecciona el accesorio a desequipar: ");
-			String nombreAccesorio = scanner.next();
+			int idAccesorio = scanner.nextInt();
 			
 			for (int i = 0; i < usuario.getAccesorios().length; i++) {
-				if (usuario.getAccesorios()[i].getNombre() == nombreAccesorio) {
+				if (usuario.getAccesorios()[i].getId() == idAccesorio) {
 					usuario.getAccesorios()[i] = null;
 				}
 			}
@@ -239,6 +245,7 @@ public class InventarioController {
 			System.out.println("No escribiste un numero valido");
 			desequiparUsuario(usuario);
 		}
+		System.out.println(usuario);
 	}
 	
 }

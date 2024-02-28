@@ -9,9 +9,9 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 
 		// Creación del usuario de forma factorizada
-		//Usuario usuario = registroUsuario();
+		Usuario usuario = registroUsuario(sc);
 		
-		Usuario usuario = new Usuario("Ulises");
+		//Usuario usuario = new Usuario("Ulises");
 		
 		// Creación del inventario
 		InventarioController inventario = new InventarioController();
@@ -66,13 +66,11 @@ public class Main {
 		
 	}
 
-	private static Usuario registroUsuario() {
-		Scanner sc = new Scanner(System.in);
+	private static Usuario registroUsuario(Scanner sc) {
 		System.out.print("Introduce tu nombre, guerrero: ");
 
 		String nombreUsuario = sc.next();
 		Usuario usuario = new Usuario(nombreUsuario);
-		sc.close();
 
 		return usuario;
 	}

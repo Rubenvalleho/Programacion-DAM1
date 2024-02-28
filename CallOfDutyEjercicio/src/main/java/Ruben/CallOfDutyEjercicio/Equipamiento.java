@@ -2,7 +2,7 @@ package Ruben.CallOfDutyEjercicio;
 
 public class Equipamiento {
 	private int id;
-	private static int contador = 0; 
+	private static int contador = 1; 
 	private int espaciosEnMochila;
 	
 	public Equipamiento (int espaciosEnMochila) {
