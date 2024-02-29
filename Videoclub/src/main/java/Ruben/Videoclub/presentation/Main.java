@@ -1,4 +1,6 @@
-package Ruben.Videoclub;
+package Ruben.Videoclub.presentation;
+
+import Ruben.Videoclub.domain.Cliente;
 
 public class Main {
 

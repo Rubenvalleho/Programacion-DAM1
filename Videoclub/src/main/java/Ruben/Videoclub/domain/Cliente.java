@@ -1,4 +1,4 @@
-package Ruben.Videoclub;
+package Ruben.Videoclub.domain;
 
 public class Cliente {
 

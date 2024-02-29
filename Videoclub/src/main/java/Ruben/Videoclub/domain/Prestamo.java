@@ -1,8 +1,10 @@
-package Ruben.Videoclub;
+package Ruben.Videoclub.domain;
 
 import java.time.LocalDate;
 
 public class Prestamo {
+	
+	private final int TIEMPO_DEVOLUCION = 7;
 	
 	private String codigoPrestamo;
 	private int contador = 1;
@@ -17,6 +19,6 @@ public class Prestamo {
 		this.cliente = cliente;
 		this.pelicula = pelicula;
 		this.fechaPrestamo = LocalDate.now();
-		this.fechaDevolucion = LocalDate.now().plusDays(2);
+		this.fechaDevolucion = LocalDate.now().plusDays(TIEMPO_DEVOLUCION);
 	}
 }
