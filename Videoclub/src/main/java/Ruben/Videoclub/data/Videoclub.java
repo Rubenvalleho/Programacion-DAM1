@@ -40,6 +40,20 @@ public class Videoclub {
 		}
 	}
 	
+	public boolean addPelicula(Pelicula pelicula) {
+		if (!listaPeliculas.contains(pelicula)) {
+			return listaPeliculas.add(pelicula);
+		}
+		return false;
+	}
+	
+	public boolean addPrestamo(Prestamo prestamo) {
+		if (!listaPrestamos.contains(prestamo)) {
+			return listaPrestamos.add(prestamo);
+		}
+		return false;
+	}
+	
 	
 	
 	
