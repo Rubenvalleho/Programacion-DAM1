@@ -6,6 +6,7 @@ public class Cliente {
 	private String nombre;
 	private int contador = 1;
 	private final String IDPREFIX = "Cliente_";
+	private boolean morosidad = false;
 	
 	public Cliente (String nombre) {
 		this.numeroCarnet = IDPREFIX + contador++;
@@ -28,8 +29,17 @@ public class Cliente {
 		this.nombre = nombre;
 	}
 	
+	public boolean getMorosidad() {
+		return morosidad;
+	}
+	
+	public void setMorosidad(Boolean morosidad) {
+		this.morosidad = morosidad;
+	}
+	
 	public String toString () {
 		return  "\nNombre de cliente: " + nombre +
-				"\nNumero de carnet: " + numeroCarnet;
+				"\nNumero de carnet: " + numeroCarnet +
+				"\nMorosidad del cliente: " + morosidad;
 	}
 }

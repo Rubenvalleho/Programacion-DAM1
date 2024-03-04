@@ -19,6 +19,7 @@ public class VideoclubHashSet {
 		this.setPeliculas = new HashSet<>();
 	}
 	
+	
 	public boolean addCliente (Cliente cliente) {
 		return setClientes.add(cliente);
 	}
@@ -29,5 +30,31 @@ public class VideoclubHashSet {
 	
 	public boolean addPeliculas (Pelicula pelicula) {
 		return setPeliculas.add(pelicula);
+	}
+	
+	public Pelicula buscarPelicula(String codigoPelicula) {
+		for (Pelicula pelicula : setPeliculas) {
+			if (pelicula.getCodigoPelicula().equals(codigoPelicula)) {
+				return pelicula;
+			}
+		}
+		return null;
+	}
+	
+	public Cliente buscarCliente(String codigoCliente) {
+		for (Cliente cliente : setClientes) {
+			if (cliente.getNumeroCarnet().equals(codigoCliente)) {
+				return cliente;
+			}
+		}
+		return null;
+	}
+	
+	public HashSet<Prestamo> getPrestamos() {
+		return (HashSet<Prestamo>) setPrestamos;
+	}
+	
+	public boolean solicitarPrestamo(String codigoCliente) {
+		
 	}
 }

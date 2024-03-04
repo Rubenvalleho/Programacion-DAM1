@@ -8,4 +8,5 @@
     <fullyQualifiedTypeName name="java.util.Random"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="Ruben.Videoclub.domain.Pelicula"/>
 </qualifiedTypeNameHistroy>
