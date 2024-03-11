@@ -21,7 +21,31 @@ public class Ejercicio3 {
 			hashNumeros.add(arrayNumeros[i]);
 		}
 		
-		for 
+		for (int i = 0; i < arrayNumeros.length; i++) {
+			treeNumeros.add(arrayNumeros[i]);
+		}
+		
+		for (int i = 0; i < arrayNumeros.length; i++) {
+			linkedNumeros.add(arrayNumeros[i]);
+		}
+		
+		//Imprimir coleccion por coleccion con for each
+		System.out.println("");
+		for (Integer numero : hashNumeros) {
+			System.out.println(numero);
+		}
+		
+		System.out.println("");
+		for (Integer numero : treeNumeros) {
+			System.out.println(numero);
+		}
+		
+		System.out.println("");
+		for (Integer numero : linkedNumeros) {
+			System.out.println(numero);
+		}
+		
+		System.out.println(hashNumeros);
 	}
 
 }

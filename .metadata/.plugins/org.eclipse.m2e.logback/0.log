@@ -13416,3 +13416,123 @@ org.eclipse.core.runtime.CoreException: Launch configuration ValoresPorPantalla 
 2024-03-06 16:16:12,169 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Users\7645\Documents\GitHub\Programacion-DAM1\Tema5\src\main\resources
 2024-03-06 16:16:12,172 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2024-03-06 16:16:12,172 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Users\7645\Documents\GitHub\Programacion-DAM1\Tema5\src\test\resources
+2024-03-09 17:13:19,803 [Worker-8: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-03-09 17:13:59,452 [Worker-29: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Ruben:CallOfDutyEjercicio:0.0.1-SNAPSHOT @ C:\Users\Rubén\Documents\GitHub\Programacion-DAM1\CallOfDutyEjercicio\pom.xml.
+2024-03-09 17:13:59,452 [Worker-0: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Ruben:Tema1:0.0.1-SNAPSHOT @ C:\Users\Rubén\Documents\GitHub\Programacion-DAM1\Tema1\pom.xml.
+2024-03-09 17:14:01,333 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-09 17:14:01,334 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\Documents\GitHub\Programacion-DAM1\CallOfDutyEjercicio\src\main\resources
+2024-03-09 17:14:01,338 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-09 17:14:01,339 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\Documents\GitHub\Programacion-DAM1\CallOfDutyEjercicio\src\test\resources
+2024-03-09 17:14:01,490 [Worker-29: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Ruben:PracticaExamenUT4:0.0.1-SNAPSHOT @ C:\Users\Rubén\Documents\GitHub\Programacion-DAM1\PracticaExamenUT4\pom.xml.
+2024-03-09 17:14:01,553 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-09 17:14:01,553 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\Documents\GitHub\Programacion-DAM1\PracticaExamenUT4\src\main\resources
+2024-03-09 17:14:01,556 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-09 17:14:01,556 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\Documents\GitHub\Programacion-DAM1\PracticaExamenUT4\src\test\resources
+2024-03-09 17:14:01,723 [Worker-29: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Ruben:Tema1:0.0.1-SNAPSHOT @ C:\Users\Rubén\Documents\GitHub\Programacion-DAM1\Tema1\pom.xml.
+2024-03-09 17:14:02,019 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-09 17:14:02,019 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\Documents\GitHub\Programacion-DAM1\Tema1\src\main\resources
+2024-03-09 17:14:02,022 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-09 17:14:02,022 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\Documents\GitHub\Programacion-DAM1\Tema1\src\test\resources
+2024-03-09 17:14:02,101 [Worker-29: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Ruben:Tema2:0.0.1-SNAPSHOT @ C:\Users\Rubén\Documents\GitHub\Programacion-DAM1\Tema2\pom.xml.
+2024-03-09 17:14:02,313 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-09 17:14:02,313 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\Documents\GitHub\Programacion-DAM1\Tema2\src\main\resources
+2024-03-09 17:14:02,316 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-09 17:14:02,317 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\Documents\GitHub\Programacion-DAM1\Tema2\src\test\resources
+2024-03-09 17:14:02,373 [Worker-29: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Ruben:Tema3:0.0.1-SNAPSHOT @ C:\Users\Rubén\Documents\GitHub\Programacion-DAM1\Tema3\pom.xml.
+2024-03-09 17:14:02,483 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-09 17:14:02,483 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\Documents\GitHub\Programacion-DAM1\Tema3\src\main\resources
+2024-03-09 17:14:02,485 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-09 17:14:02,486 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\Documents\GitHub\Programacion-DAM1\Tema3\src\test\resources
+2024-03-09 17:14:02,545 [Worker-29: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Ruben:Tema4:0.0.1-SNAPSHOT @ C:\Users\Rubén\Documents\GitHub\Programacion-DAM1\Tema4\pom.xml.
+2024-03-09 17:14:02,782 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-09 17:14:02,782 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\Documents\GitHub\Programacion-DAM1\Tema4\src\main\resources
+2024-03-09 17:14:02,785 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-09 17:14:02,785 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\Documents\GitHub\Programacion-DAM1\Tema4\src\test\resources
+2024-03-09 17:14:03,053 [Worker-6: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-03-09 17:14:03,169 [Worker-6: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Ruben:Tema1:0.0.1-SNAPSHOT @ C:\Users\Rubén\Documents\GitHub\Programacion-DAM1\Tema1\pom.xml.
+2024-03-09 17:14:03,211 [Worker-6: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Ruben:Tema2:0.0.1-SNAPSHOT @ C:\Users\Rubén\Documents\GitHub\Programacion-DAM1\Tema2\pom.xml.
+2024-03-09 17:14:03,251 [Worker-6: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Ruben:Tema3:0.0.1-SNAPSHOT @ C:\Users\Rubén\Documents\GitHub\Programacion-DAM1\Tema3\pom.xml.
+2024-03-09 17:14:03,287 [Worker-6: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Ruben:Tema4:0.0.1-SNAPSHOT @ C:\Users\Rubén\Documents\GitHub\Programacion-DAM1\Tema4\pom.xml.
+2024-03-09 17:14:03,376 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Tema1/src/main/java
+2024-03-09 17:14:03,376 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Tema1/src/main/resources
+2024-03-09 17:14:03,377 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Tema1/src/test/java
+2024-03-09 17:14:03,377 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Tema1/src/test/resources
+2024-03-09 17:14:03,421 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Tema2/src/main/java
+2024-03-09 17:14:03,422 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Tema2/src/main/resources
+2024-03-09 17:14:03,422 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Tema2/src/test/java
+2024-03-09 17:14:03,422 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Tema2/src/test/resources
+2024-03-09 17:14:03,452 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Tema3/src/main/java
+2024-03-09 17:14:03,453 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Tema3/src/main/resources
+2024-03-09 17:14:03,453 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Tema3/src/test/java
+2024-03-09 17:14:03,453 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Tema3/src/test/resources
+2024-03-09 17:14:03,486 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Tema4/src/main/java
+2024-03-09 17:14:03,486 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Tema4/src/main/resources
+2024-03-09 17:14:03,487 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Tema4/src/test/java
+2024-03-09 17:14:03,487 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Tema4/src/test/resources
+2024-03-09 17:14:03,663 [Worker-7: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Ruben:Tema1:0.0.1-SNAPSHOT @ C:\Users\Rubén\Documents\GitHub\Programacion-DAM1\Tema1\pom.xml.
+2024-03-09 17:14:03,723 [Worker-7: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Ruben:Tema2:0.0.1-SNAPSHOT @ C:\Users\Rubén\Documents\GitHub\Programacion-DAM1\Tema2\pom.xml.
+2024-03-09 17:14:03,725 [Worker-6: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 4 poms: local refresh takes 0,00 sec, refresh facades takes 0,00 sec, update config takes 0,00 sec 
+2024-03-09 17:14:04,533 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-09 17:14:04,534 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\Documents\GitHub\Programacion-DAM1\Tema1\src\main\resources
+2024-03-09 17:14:04,537 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-09 17:14:04,537 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\Documents\GitHub\Programacion-DAM1\Tema1\src\test\resources
+2024-03-09 17:14:04,627 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-09 17:14:04,628 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\Documents\GitHub\Programacion-DAM1\Tema2\src\main\resources
+2024-03-09 17:14:04,631 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-09 17:14:04,632 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\Documents\GitHub\Programacion-DAM1\Tema2\src\test\resources
+2024-03-09 17:14:04,773 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-09 17:14:04,773 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\Documents\GitHub\Programacion-DAM1\Tema3\src\main\resources
+2024-03-09 17:14:04,775 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-09 17:14:04,776 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\Documents\GitHub\Programacion-DAM1\Tema3\src\test\resources
+2024-03-09 17:14:04,907 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-09 17:14:04,907 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\Documents\GitHub\Programacion-DAM1\Tema4\src\main\resources
+2024-03-09 17:14:04,909 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-09 17:14:04,909 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\Documents\GitHub\Programacion-DAM1\Tema4\src\test\resources
+2024-03-09 17:14:04,976 [Worker-19: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Ruben:Tema5:0.0.1-SNAPSHOT @ C:\Users\Rubén\Documents\GitHub\Programacion-DAM1\Tema5\pom.xml.
+2024-03-09 17:14:05,060 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-09 17:14:05,060 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\Documents\GitHub\Programacion-DAM1\Tema5\src\main\resources
+2024-03-09 17:14:05,063 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-09 17:14:05,064 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\Documents\GitHub\Programacion-DAM1\Tema5\src\test\resources
+2024-03-09 17:14:05,189 [Worker-19: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Ruben:Videoclub:0.0.1-SNAPSHOT @ C:\Users\Rubén\Documents\GitHub\Programacion-DAM1\Videoclub\pom.xml.
+2024-03-09 17:14:05,199 [Worker-19: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Tema5: Ruben:Tema5:0.0.1-SNAPSHOT with classifier  to /Tema5/target/classes
+2024-03-09 17:14:05,223 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-09 17:14:05,223 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\Documents\GitHub\Programacion-DAM1\Videoclub\src\main\resources
+2024-03-09 17:14:05,225 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-09 17:14:05,225 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\Documents\GitHub\Programacion-DAM1\Videoclub\src\test\resources
+2024-03-11 09:44:56,354 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-03-11 13:37:09,088 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-11 13:37:09,090 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\Documents\GitHub\Programacion-DAM1\Tema5\src\main\resources
+2024-03-11 13:37:09,094 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-11 13:37:09,094 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\Documents\GitHub\Programacion-DAM1\Tema5\src\test\resources
+2024-03-11 13:37:50,924 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-11 13:37:50,925 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\Documents\GitHub\Programacion-DAM1\Tema5\src\main\resources
+2024-03-11 13:37:50,927 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-11 13:37:50,927 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\Documents\GitHub\Programacion-DAM1\Tema5\src\test\resources
+2024-03-11 13:38:38,586 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-11 13:38:38,586 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\Documents\GitHub\Programacion-DAM1\Tema5\src\main\resources
+2024-03-11 13:38:38,588 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-11 13:38:38,589 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\Documents\GitHub\Programacion-DAM1\Tema5\src\test\resources
+2024-03-11 13:40:18,311 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-11 13:40:18,311 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\Documents\GitHub\Programacion-DAM1\Tema5\src\main\resources
+2024-03-11 13:40:18,314 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-11 13:40:18,314 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\Documents\GitHub\Programacion-DAM1\Tema5\src\test\resources
+2024-03-11 13:40:49,061 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-11 13:40:49,061 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\Documents\GitHub\Programacion-DAM1\Tema5\src\main\resources
+2024-03-11 13:40:49,064 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-11 13:40:49,065 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\Documents\GitHub\Programacion-DAM1\Tema5\src\test\resources
+2024-03-11 13:42:36,124 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-11 13:42:36,124 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\Documents\GitHub\Programacion-DAM1\Tema5\src\main\resources
+2024-03-11 13:42:36,126 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-11 13:42:36,127 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\Documents\GitHub\Programacion-DAM1\Tema5\src\test\resources
+2024-03-11 13:42:47,558 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-11 13:42:47,558 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\Documents\GitHub\Programacion-DAM1\Tema5\src\main\resources
+2024-03-11 13:42:47,560 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-11 13:42:47,561 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\Documents\GitHub\Programacion-DAM1\Tema5\src\test\resources
+2024-03-11 13:43:17,574 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-11 13:43:17,574 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\Documents\GitHub\Programacion-DAM1\Tema5\src\main\resources
+2024-03-11 13:43:17,577 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-11 13:43:17,577 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\Documents\GitHub\Programacion-DAM1\Tema5\src\test\resources
+2024-03-11 13:44:03,632 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-11 13:44:03,633 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\Documents\GitHub\Programacion-DAM1\Tema5\src\main\resources
+2024-03-11 13:44:03,635 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-11 13:44:03,635 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rubén\Documents\GitHub\Programacion-DAM1\Tema5\src\test\resources
