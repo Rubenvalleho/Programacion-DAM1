@@ -13,11 +13,13 @@ public class VideoclubHashSet {
 	private Collection <Cliente> setClientes;
 	private Collection <Prestamo> setPrestamos;
 	private Collection <Pelicula> setPeliculas;
+	private Collection <Cliente> setMorosos;
 	
 	public VideoclubHashSet () {
 		this.setClientes = new HashSet<>();
 		this.setPrestamos = new HashSet<>();
 		this.setPeliculas = new HashSet<>();
+		this.setMorosos = new HashSet<>();
 	}
 	
 	
@@ -31,6 +33,10 @@ public class VideoclubHashSet {
 	
 	public boolean addPeliculas (Pelicula pelicula) {
 		return setPeliculas.add(pelicula);
+	}
+	
+	public boolean addMorosos (Cliente cliente) {
+		return setMorosos.add(cliente);
 	}
 	
 	public Pelicula buscarPelicula(String codigoPelicula) {
@@ -75,5 +81,17 @@ public class VideoclubHashSet {
 		} else {
 			System.out.println("\nCliente moroso, no puede recibir prestamos.");
 		}
+	}
+	
+	public void actualizarMorosos() {
+		for (Cliente cliente : setClientes) {
+			if (cliente.getMorosidad()) {
+				setMorosos.add(cliente);
+			}
+		}
+	}
+	
+	public void isPrestada(String codigoPelicula) {
+		
 	}
 }

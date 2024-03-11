@@ -13,4 +13,6 @@
     <fullyQualifiedTypeName name="java.util.HashSet"/>
     <fullyQualifiedTypeName name="java.util.TreeSet"/>
     <fullyQualifiedTypeName name="java.util.LinkedHashSet"/>
+    <fullyQualifiedTypeName name="Ruben.Tema5.ListaSimple2.Lista"/>
+    <fullyQualifiedTypeName name="Ruben.Tema5.ListaSimpleGenericos.ListaGenericos"/>
 </qualifiedTypeNameHistroy>

@@ -39,11 +39,21 @@ public class Pila {
 	
 	//peak devolver cima pero no borrarla
 	public Integer peak() {
-		
+		return cima.getInfo();
 	}
 	
 	//print
 	public void print() {
+		System.out.println(cima);
+	}
+	
+	
+	public static void main (String [] args) {
+		Integer uno = 1;
 		
+		Pila pila = new Pila();
+		pila.push(uno);
+		
+		pila.print();
 	}
 }
