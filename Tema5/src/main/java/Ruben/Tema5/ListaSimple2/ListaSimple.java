@@ -205,7 +205,7 @@ public class ListaSimple implements Lista {
 		Persona persona3 = new Persona ("Toto", 33);
 		
 		lista.insertAtBegin(persona1);
-		lista.insertAtEnd(persona2);
+		lista.insertAtBegin(persona2);
 		//lista.insertAtEnd(persona3);
 		lista.insertAtPosition(persona3, 1);
 		

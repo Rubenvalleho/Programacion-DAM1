@@ -67,7 +67,7 @@ public interface ListaGenericos <T>{
 	 * @param index posición del nodo a borrar
 	 * @return la persona en caso de que sea posible o null en caso de no serlo.
 	 */
-	public T removeAt(int index);
+	public void removeAt(int index);
 	
 	/**
 	 * Imprime la información de la lista
