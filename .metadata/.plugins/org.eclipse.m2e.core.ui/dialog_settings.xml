@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\Users\7645\Desktop\examenRubenVallejo_UT5"/>
 			<item value="D:\Users\7645\Documents\GitHub\Programacion-DAM1"/>
 			<item value="D:\Users\7645\eclipse-workspace_dam"/>
 		</list>
@@ -27,6 +28,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="Ruben.examenUT5"/>
 			<item value="Ruben.Videoclub"/>
 			<item value="Ruben.PracticaExamenUT4"/>
 			<item value="Ruben.Tema4"/>
@@ -36,6 +38,7 @@
 			<item value="Ruben"/>
 		</list>
 		<list key="artifactId">
+			<item value="examenUT5"/>
 			<item value="Videoclub"/>
 			<item value="PracticaExamenUT4"/>
 			<item value="Tema4"/>
