@@ -19,7 +19,7 @@ public class PilasEquilibradas {
 	 
 	 public Stack<Character> comprobarPila = new Stack<>();
 	 
-	 public char[] dividirString(String str) {
+	 public static char[] dividirString(String str) {
 		char[] cambio = str.toCharArray();
 		
 		return cambio;
@@ -36,6 +36,11 @@ public class PilasEquilibradas {
 			} else if (Character.toString(arrayCaracteres[i]).matches(EXPRESION1)) {
 				comprobarPila.push(arrayCaracteres[i]);
 			}
+		 }
+		 
+		 for (int i = 0; i < comprobarPila.size(); i++) {
+			 System.out.println(comprobarPila.peek());
+			 comprobarPila.pop();
 		 }
 	 }
 	 
@@ -59,6 +64,11 @@ public class PilasEquilibradas {
 		 
 		 
 		 //Comparar un array para ver si está balanceado
+		 
+		 PilasEquilibradas pilas = new PilasEquilibradas();
+		 
+		 pilas.comprobarEquilibrio(dividirString(EXPRESION1));
+		;
 	}
 
 }
