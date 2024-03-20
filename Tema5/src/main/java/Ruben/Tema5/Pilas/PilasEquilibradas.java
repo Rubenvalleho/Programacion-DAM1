@@ -33,7 +33,7 @@ public class PilasEquilibradas {
 		 for (int i = 0; i < arrayCaracteres.length; i++) {
 			if (Character.toString(arrayCaracteres[i]).matches(PATT_SIGNOS_APERTURA)) {
 				comprobarPila.push(arrayCaracteres[i]);
-			} else if (Character.toString(arrayCaracteres[i]).matches(EXPRESION1)) {
+			} else if (Character.toString(arrayCaracteres[i]).matches(PATT_SIGNOS_CIERRE)) {
 				comprobarPila.push(arrayCaracteres[i]);
 			}
 		 }

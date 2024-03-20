@@ -15354,3 +15354,8 @@ Caused by: java.lang.Exception: File not found: D:\Users\7645\Desktop\examenRube
 2024-03-19 15:52:12,287 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Users\7645\Documents\GitHub\Programacion-DAM1\Tema5\src\main\resources
 2024-03-19 15:52:12,290 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2024-03-19 15:52:12,290 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Users\7645\Documents\GitHub\Programacion-DAM1\Tema5\src\test\resources
+2024-03-20 16:54:49,595 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-03-20 17:01:57,137 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-20 17:01:57,145 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Users\7645\Documents\GitHub\Programacion-DAM1\Tema5\src\main\resources
+2024-03-20 17:01:57,150 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-20 17:01:57,150 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Users\7645\Documents\GitHub\Programacion-DAM1\Tema5\src\test\resources
